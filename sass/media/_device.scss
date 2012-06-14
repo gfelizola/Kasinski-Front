@@ -1,0 +1,79 @@
+$debugGrid: true;
+
+body{
+    background-color: $bgColor;
+    color: $fontColor;
+}
+
+.wrapper{
+    background-color: rgba(0,0,0,.3);
+}
+
+.row{
+    @include enable-hardware-acceleration;
+    @include transition(width 1s linear());
+    width: 95%;
+    margin: 0 auto;
+    background-color: rgba(0,255,0,.3);
+    @include tablet{
+        @include gridBuild(16px, $cols, $space, $debugGrid);
+    }
+    @include desktop{
+        @include gridBuild(30px, $cols, $space, $debugGrid);
+    }
+}
+
+nav{
+    ul{
+        margin:0;
+        padding:0;
+        li{
+            display: block;
+            a{
+                width: 95%;
+                display: block;
+                margin:0 auto;
+                margin-bottom: $space;
+                padding:$space 0;
+                background-color: blue;
+                color:white;
+                text-align: center;
+                text-decoration: none;
+                font-weight: bold;
+                &:hover,
+                &:visited{
+                    color:white;
+                }
+                &:hover{
+                    text-decoration:underline;
+                }
+            }
+        }
+        @include tablet{
+            @include tabletDesktopWide;
+        }
+        @include desktop{
+            @include tabletDesktopWide;
+        }
+        @include wide-screen{
+            @include tabletDesktopWide;
+        }
+    }
+}
+
+@mixin tabletDesktopWide{
+    float: right;
+    li{
+        display:inline;
+        a{
+            width: 100px;
+            float: left;
+            margin-right: $space;
+        }
+        &:last-child{
+            a{
+                margin-right: 0;
+            }
+        }
+    }
+}

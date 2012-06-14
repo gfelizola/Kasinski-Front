@@ -1,0 +1,35 @@
+@import "compass";
+@import "960/grid";
+
+@import "stuff/vars";
+@import "stuff/mixins";
+@import "stuff/helpers";
+
+@import "vendor/normalize";
+
+// @import "front/geral";
+
+// Media queries
+// @import "media/device";
+body { background:black; }
+
+header {
+	@include grid_container;
+
+	nav {
+		@include grid(16);
+
+		background: {
+			image: image-url('menu_bg.png') ;
+			repeat: no-repeat;
+			position: left top;
+			color: #000000;
+		}
+
+		a.logo {
+			@include replace-text-with-dimensions('menu_logo.png');
+			@include grid(1);
+    		@include alpha;
+		}
+	}
+}

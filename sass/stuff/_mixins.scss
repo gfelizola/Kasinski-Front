@@ -1,0 +1,25 @@
+@mixin fontface($embedFont : false){
+    @if $embedFont != false { 
+        @include font-face( "#{$embedFont}", font-files(
+                "#{$embedFont}-webfont.woff", woff,
+                "#{$embedFont}-webfont.ttf", truetype,
+                "#{$embedFont}-webfont.svg##{$embedFont}", svgm,
+                "#{$embedFont}-webfont.eot?#iefix", embedded-opentype
+            ),
+            "#{$embedFont}-webfont.eot"
+        );
+    }
+}
+
+@mixin fontfamily($embedFont : false){
+    @if $embedFont == false { font-family: Tahoma, Helvetica, Arial, sans-serif; }
+    @else { font-family: "#{$embedFont}", Tahoma, Helvetica, Arial, sans-serif; }
+}
+
+@mixin lnkcolorize($fc : #000, $lc : #000){
+    @include hover-link;
+    @include link_colors($fc,$lc,$fc,$fc,$fc);
+    &.selected{
+        @include link_colors($lc,$lc,$lc,$lc,$lc);
+    }
+}
