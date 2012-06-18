@@ -7,11 +7,24 @@
 
 @import "vendor/normalize";
 
-// @import "front/geral";
+@include fontface("segoewp");
+@include fontface("segoewp-light");
+@include fontface("segoewp-black");
+@include fontface("segoewp-bold");
+@include fontface("segoewp-semibold");
+@include fontface("segoewp-semilight");
+@include fontface("segoewpn");
+@include fontface("segoewpn-light");
+@include fontface("segoewpn-black");
+@include fontface("segoewpn-bold");
+@include fontface("segoewpn-semibold");
+@include fontface("segoewpn-semilight");
+
+@import "front/geral";
 
 // Media queries
 // @import "media/device";
-body { background:black; }
+
 
 header {
 	@include grid_container;
@@ -30,6 +43,322 @@ header {
 			@include replace-text-with-dimensions('menu_logo.png');
 			@include grid(1);
     		@include alpha;
+		}
+
+		ul { 
+			margin:0;
+			padding:0;
+			@include grid(15); 
+			@include alpha;
+			@include omega;
+		}
+		li { 
+			min-height:38px; 
+			@include grid(2);
+			@include alpha;
+			@include omega;
+			width:110px;
+
+			&:hover ul.submenu { display:block; };
+		}
+		li a { 
+			display:block; width:100%; height:100%; line-height:38px; 
+			@include fontfamily("segoewp"); font-size:11px; color:#ffffff; 
+			text-align: center; text-decoration:none; 
+			background: transparent image-url("menu_divisor.png") no-repeat right top;
+		}
+		ul.submenu {
+			width:110px;
+			margin: -1px -1px;
+			padding: 10px 0;
+			background: #333333;
+			display: none;
+			position: absolute;
+			z-index: 1000;
+			
+			li {
+				height: 24px;
+				min-height: 24px;
+				line-height: 24px;
+				margin: 0;
+				padding: 2px 0;
+			}
+			li a {
+				background-image: none;
+				height: 24px;
+				line-height: 24px;
+				&:hover{
+					background: #545454;
+				}
+			}
+
+			&.produtos {
+				width:940px !important;
+				height:105px !important;
+				background: white image-url("menu_motos_bg.png") no-repeat left top;
+				@include horizontal-list;
+				margin-left: -160px;
+
+				li {
+					width: 120px;
+					height: 105px;
+					@include box-sizing(border-box);
+					background: transparent image-url("menu_motos_divisor.png") no-repeat right center;
+
+					&.atual, &:hover {
+						border-bottom: 5px solid $red;
+					}
+				}
+
+				li a {
+					display: block;
+					width: 100%;
+					height: 100%;
+					@include box-sizing(border-box);
+					text-align: center;
+					text-decoration: none;
+					color: black;
+					line-height:15px;
+					padding-top: 10px;
+
+					&:hover {
+						background:none;
+					}
+				}
+			}
+		}
+
+		li.busca { 
+			@include grid(4);
+			@include alpha;
+			@include omega;
+		}
+
+		
+	}
+}
+
+footer {
+	@include grid_container;
+	@include clearfix;
+
+	.social {
+		@include box-sizing(border-box);
+
+		height:209px;
+		padding:10px 0;
+		background: transparent image-url("social_bg.png") no-repeat top center;
+		
+		.twitter {
+			@include grid(9);
+			@include box-sizing(border-box);
+			height: 190px;
+			border-right: 1px dashed #c3c3c3;
+			padding: 10px;
+
+			.twitter_logo {
+				@include float-left;
+				margin-left: 50px;
+				margin-top:50px;
+			}
+
+			.conteudo {
+				@include box-sizing(border-box);
+				@include float-left;
+				width: 360px;
+				padding: 10px;
+
+				.titulo {
+					color:$red;
+					@include fontfamily('segoewp-black');
+					text-decoration: none;
+					font-size: 20px;
+
+					img { 
+						vertical-align: text-bottom;
+						margin-left:10px;
+					}
+				}
+
+				p {
+					.data {
+						@include fontfamily('segoewp-bold');
+					}
+
+					a {
+						color:$red;
+					}
+				}
+			}
+		}
+
+		.facebook {
+			@include grid(7);
+			@include omega;
+			padding-top: 30px;
+
+			.fb-like-box {
+				background:white;
+			}
+		}
+
+	}
+}
+
+.home {
+	@include grid_container;
+
+	.header {
+		@include grid(16);
+		@include box-sizing(border-box);
+		height: 78px;
+		padding: 20px 0 0 40px;
+		background-color: white;
+		@include background-image( linear-gradient( white, darken(white, 10) ) );
+		@include box-shadow(black 0px 10px)
+	}
+
+	.slider {
+		position: relative;
+		@include grid(16);
+
+		.dots {
+			position: absolute;
+			width: auto;
+			right: 40px;
+			bottom: 10px;
+			@include horizontal-list;
+
+			li {
+				width:14px;
+				height: 14px;
+				margin: 0 3px;
+
+				a {
+					display:block;
+					@include replace-text-with-dimensions('home_slider_dot.png');
+
+					&:hover, &.atual {
+						@include replace-text-with-dimensions('home_slider_dot_atual.png');
+					}
+				}
+			}
+		}
+
+		.destaques {
+			height: 382px;
+			width: 100%;
+			@include horizontal-list;
+
+			li {
+				width: $ninesixty-grid-width - ( $ninesixty-gutter-width );
+				background: white image-url("home_destaque_bg.png") repeat-x top right;
+				@include grid_container;
+
+				img {
+					@include grid(10);
+					@include alpha;
+				}
+				div {  
+					@include grid(6);
+					@include box-sizing(border-box);
+					padding-right: 40px;
+
+					h2 {
+						@include force-wrap;
+						@include fontfamily("segoewpn-black");
+						font-size: 30px;
+						font-style: italic;
+						line-height:25px;
+					}
+
+					p {
+						@include force-wrap;
+						@include fontfamily("segoewpn");
+						font {
+						    size: 14px;
+						    weight: bold;
+						}
+					}
+
+					a.leia-mais {
+						color: $red;
+						&:hover {
+							color:black;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.carrosel-noticias {
+	@include grid(16);
+	@include alpha;
+	@include omega;
+	width: 960px;
+	height: 200px;
+	background:{
+		color: transparent;
+		image: image-url("carrosel_noticias_bg.png");
+		repeat: no-repeat;
+		position: 10px 0px;
+	} 
+	@include background-size(940px 200px);
+	position: relative;
+
+	.seta {
+		@include grid(1);
+		height: 200px;
+		position: absolute;
+		top:0;
+
+		&.esquerda {
+			@include replace-text('seta_esquerda.png');
+			@include alpha;
+			left:0;
+		}
+		&.direita {
+			@include replace-text('seta_direita.png');
+			@include omega;
+			right:0;
+		}
+	}
+
+	.container-noticias {
+		width: 850px;
+		margin-left: 45px;
+		overflow: hidden;
+	}
+
+	.noticias {
+		width: 30000px;
+
+		li {
+			@include float-left;
+			@include box-sizing(border-box);
+			width: 271px;
+			height: 150px;
+			background: #222222 image-url("carrosel_noticias_item_bg.png") no-repeat left top;
+			color: #ffffff;
+			margin-left: 15px;
+			padding: 10px;
+			position: relative;
+
+			.call-to-action {
+				position: absolute;
+				display: block;
+				@include box-sizing(border-box);
+				width: 100%;
+				padding: 5px;
+				background: rgba(0,0,0,0.3);
+				color: white;
+				text-align: center;
+				text-decoration: none;
+				left:0;
+				bottom:0;
+			}
 		}
 	}
 }

@@ -22,22 +22,141 @@
 	<header>
 		<nav>
 			<a href="index.html" class="logo">HOME</a>
+			<ul>
+				<li>
+					<a href="#" class="item">Home</a>
+				</li>
+				<li>
+					<a href="#" class="item">Produtos</a>
+					<ul class="submenu produtos">
+						<li><a href="#"><img src="img/moto_menu_fake.png" alt=""><br />Comet GTR 250</a></li>
+						<li><a href="#"><img src="img/moto_menu_fake.png" alt=""><br />Comet GTR 250</a></li>
+						<li><a href="#"><img src="img/moto_menu_fake.png" alt=""><br />Comet GTR 250</a></li>
+						<li><a href="#"><img src="img/moto_menu_fake.png" alt=""><br />Comet GTR 250</a></li>
+						<li><a href="#"><img src="img/moto_menu_fake.png" alt=""><br />Comet GTR 250</a></li>
+						<li><a href="#"><img src="img/moto_menu_fake.png" alt=""><br />Comet GTR 250</a></li>
+						<li><a href="#"><img src="img/moto_menu_fake.png" alt=""><br />Comet GTR 250</a></li>
+						<li><a href="#"><img src="img/moto_menu_fake.png" alt=""><br />Comet GTR 250</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#" class="item">Concessionárias</a>
+				</li>
+				<li>
+					<a href="#" class="item">Consórcio</a>
+				</li>
+				<li>
+					<a href="#" class="item">Institucional</a>
+					<ul class="submenu">
+						<li><a href="#">Fábricas</a></li>
+						<li><a href="#">Zongchen</a></li>
+						<li><a href="#">CRZ-EPower</a></li>
+						<li><a href="#">Prêmios</a></li>
+						<li><a href="#">Imprensa</a></li>
+						<li><a href="#">Políticas</a></li>
+						<li><a href="#">Frotistas</a></li>
+						<li><a href="#">Trânsito Legal</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#" class="item">Contato</a>
+				</li>
+				<li class="busca">
+					
+				</li>
+			</ul>
 		</nav>
 	</header>
-	<div id="main">
+
+	<div id="main" class="home">
+		<div class="header">
+			<img src="img/logo_kasinski.png" alt="Kasinski" />
+		</div>
+		<div class="slider">
+			<ul class="dots">
+				<li><a href="#">1</a></li>
+				<li><a href="#">2</a></li>
+				<li><a href="#">3</a></li>
+				<li><a href="#">4</a></li>
+				<li><a href="#" class="atual">5</a></li>
+			</ul>
+			<ul class="destaques">
+				<li>
+					<img src="img/home_destaque_fake.png" alt="Lorem" />
+					<div>
+						<h2>Lorem ipsum dolor sit amet</h2>
+						<p>Lorem ipsum dolor sit amet, <strong>consectetur</strong> adipiscing elit. Curabitur ornare sollicitudin nulla, a sodales diam imperdiet id. Ut ac placerat felis. Cras tempus, metus non feugiat porttitor, elit felis ultrices tortor, vel fringilla libero neque et orci.</p>
+						<a href="#" class="leia-mais">Leia mais</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+
+
+		<div class="carrosel-noticias">
+			<a href="#" class="seta esquerda">Anterior</a>
+			<div class="container-noticias">
+				<ul class="noticias">
+					<li>
+						<p><img src="img/selo_premio.png" align="right" />
+							Mirage 150 e 250 vence prêmio melhor compra 2012</p>
+						<a href="" class="call-to-action">Confira a matéria na integra</a>
+					</li>
+					<li>
+						<p><img src="img/selo_premio.png" align="right" />Mirage 150 e 250 vence prêmio melhor compra 2012</p>
+						<a href="" class="call-to-action">Confira a matéria na integra</a>
+					</li>
+					<li>
+						<p><img src="img/selo_premio.png" align="right" />
+							Mirage 150 e 250 vence prêmio melhor compra 2012</p>
+						<a href="" class="call-to-action">Confira a matéria na integra</a>
+					</li>
+				</ul>
+			</div>
+			<a href="#" class="seta direita">Próxima</a>
+		</div>
 
 	</div>
-	<footer>
 
+	<footer>
+		<div class="social">
+			<div class="twitter">
+				<img src="img/logo_twitter_transparent.png" class="twitter_logo" />
+				<div class="conteudo">
+					<a href="https://twitter.com/#!/kasinskibrasil" class="titulo">
+						@KasinskiBrasil
+						<img src="img/bt_twitter_follow.png" alt="">
+					</a>
+
+					<p>
+						<span class="data">2 abril</span><br>
+						Kasinski Mirage 650 - TESTADA e APROVADA por
+						quem entende do assunto. <a href="#">youtube.com/watch?v</a>
+					</p>	
+				</div>
+			</div>
+			<div class="facebook">
+				<div class="fb-like-box" data-href="http://www.facebook.com/kasinskibrasil" data-width="300" data-height="160" data-show-faces="true" data-stream="false" data-header="false"></div>
+			</div>
+		</div>
 	</footer>
 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js"></script>
 	<script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.2.js"><\/script>')</script>
 
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1&appId=419115908112031";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
 	<script src="js/plugins.js"></script>
 	<script src="js/script.js"></script>
 	<script>
-	// var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+	// var _gaq=[['_setAccount','UA-16431884-2'],['_trackPageview']];
 	// (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
 	// g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
 	// s.parentNode.insertBefore(g,s)}(document,'script'));

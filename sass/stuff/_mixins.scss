@@ -1,12 +1,12 @@
 @mixin fontface($embedFont : false){
     @if $embedFont != false { 
         @include font-face( "#{$embedFont}", font-files(
-                "#{$embedFont}-webfont.woff", woff,
-                "#{$embedFont}-webfont.ttf", truetype,
-                "#{$embedFont}-webfont.svg##{$embedFont}", svgm,
-                "#{$embedFont}-webfont.eot?#iefix", embedded-opentype
+                "#{$embedFont}.woff", woff,
+                "#{$embedFont}.ttf", truetype,
+                "#{$embedFont}.svg##{$embedFont}", svg,
+                "#{$embedFont}.eot?#iefix", eot
             ),
-            "#{$embedFont}-webfont.eot"
+            "#{$embedFont}.eot"
         );
     }
 }

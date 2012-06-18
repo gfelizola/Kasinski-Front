@@ -65,21 +65,3 @@
 .center{
     text-align:center;
 }
-
-// Margin Default
-.someMargin{
-    &.mtop{margin-top:$space;}
-    &.mleft{margin-left:$space;}
-    &.mright{margin-right:$space;}
-    &.mbottom{margin-bottom:$space;}
-    &.mfull{margin:$space;}
-}
-
-// Padding Default
-.somePadding{
-    &.ptop{padding-top:$space;}
-    &.pleft{padding-left:$space;}
-    &.pright{padding-right:$space;}
-    &.pbottom{padding-bottom:$space;}
-    &.pfull{padding:$space;}
-}

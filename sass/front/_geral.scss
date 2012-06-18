@@ -1,0 +1,12 @@
+body { 
+	background:black;
+	@include fontfamily("segoewp");					
+}
+
+p {
+	@include fontfamily("segoewpn");	
+}
+
+strong, b {
+	@include fontfamily("segoewpn-bold");	
+}
