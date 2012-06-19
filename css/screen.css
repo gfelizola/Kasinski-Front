@@ -613,13 +613,6 @@ header {
   overflow: hidden;
   *zoom: 1; }
 
-/* line 145, ../sass/front/_geral.scss */
-.interna h2 {
-  font-family: "segoewpn-black", Tahoma, Helvetica, Arial, sans-serif;
-  text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
-  font-size: 24px;
-  font-style: italic;
-  text-transform: uppercase; }
 /* line 146, ../sass/front/_geral.scss */
 .interna .conteudo {
   display: inline;
@@ -1126,6 +1119,13 @@ footer {
         bottom: 0; }
 
 /* line 174, ../sass/screen.scss */
+.institucional h2 {
+  font-family: "segoewpn-black", Tahoma, Helvetica, Arial, sans-serif;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+  font-size: 24px;
+  font-style: italic;
+  text-transform: uppercase; }
+/* line 175, ../sass/screen.scss */
 .institucional .texto {
   -webkit-column-count: 2;
   -moz-column-count: 2;
@@ -1138,9 +1138,16 @@ footer {
   font-size: 12px; }
 
 /* line 183, ../sass/screen.scss */
+.noticias h2 {
+  font-family: "segoewpn-black", Tahoma, Helvetica, Arial, sans-serif;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+  font-size: 36px;
+  font-style: italic;
+  text-transform: uppercase; }
+/* line 185, ../sass/screen.scss */
 .noticias .texto ul {
   width: 100%; }
-  /* line 186, ../sass/screen.scss */
+  /* line 188, ../sass/screen.scss */
   .noticias .texto ul li {
     list-style: none;
     width: 100%;
@@ -1149,35 +1156,42 @@ footer {
     border-bottom: 1px solid #c1c1c1;
     display: inline;
     float: left; }
-    /* line 194, ../sass/screen.scss */
+    /* line 196, ../sass/screen.scss */
     .noticias .texto ul li .imagem {
       display: inline;
       float: left;
       width: 200px; }
-    /* line 198, ../sass/screen.scss */
+    /* line 200, ../sass/screen.scss */
     .noticias .texto ul li .dados {
       display: inline;
       float: left;
       width: 615px; }
-      /* line 202, ../sass/screen.scss */
+      /* line 204, ../sass/screen.scss */
       .noticias .texto ul li .dados h3 {
         font-family: "segoewpn-black", Tahoma, Helvetica, Arial, sans-serif;
         text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
         font-size: 16px;
         margin: 0; }
-        /* line 207, ../sass/screen.scss */
+        /* line 209, ../sass/screen.scss */
         .noticias .texto ul li .dados h3 span {
           color: #cc3333;
           display: block;
           width: 100%; }
-      /* line 214, ../sass/screen.scss */
+      /* line 216, ../sass/screen.scss */
       .noticias .texto ul li .dados p {
         font-size: 12px; }
 
-/* line 225, ../sass/screen.scss */
+/* line 226, ../sass/screen.scss */
+.premios h2 {
+  font-family: "segoewpn-black", Tahoma, Helvetica, Arial, sans-serif;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+  font-size: 36px;
+  font-style: italic;
+  text-transform: uppercase; }
+/* line 228, ../sass/screen.scss */
 .premios .texto ul {
   width: 100%; }
-  /* line 228, ../sass/screen.scss */
+  /* line 231, ../sass/screen.scss */
   .premios .texto ul li {
     list-style: none;
     width: 100%;
@@ -1186,27 +1200,27 @@ footer {
     border-bottom: 1px solid #c1c1c1;
     display: inline;
     float: left; }
-    /* line 236, ../sass/screen.scss */
+    /* line 239, ../sass/screen.scss */
     .premios .texto ul li .imagem {
       display: inline;
       float: left;
       width: 200px; }
-    /* line 240, ../sass/screen.scss */
+    /* line 243, ../sass/screen.scss */
     .premios .texto ul li .dados {
       display: inline;
       float: left;
       width: 615px; }
-      /* line 244, ../sass/screen.scss */
+      /* line 247, ../sass/screen.scss */
       .premios .texto ul li .dados h3 {
         font-family: "segoewpn-black", Tahoma, Helvetica, Arial, sans-serif;
         text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
         font-size: 16px;
         margin: 0; }
-        /* line 249, ../sass/screen.scss */
+        /* line 252, ../sass/screen.scss */
         .premios .texto ul li .dados h3 span {
           color: #cc3333;
           display: block;
           width: 100%; }
-      /* line 256, ../sass/screen.scss */
+      /* line 259, ../sass/screen.scss */
       .premios .texto ul li .dados p {
         font-size: 12px; }

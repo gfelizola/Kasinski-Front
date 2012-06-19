@@ -171,6 +171,7 @@
 }
 
 .institucional {
+	h2 { @include titulo; }
 	.texto {
 		@include column-count(2);
 		@include column-gap(60px);
@@ -179,6 +180,7 @@
 }
 
 .noticias {
+	h2 { @include titulo($size:36px); }
 	.texto {
 		ul {
 			width: 100%;
@@ -221,6 +223,7 @@
 }
 
 .premios {
+	h2 { @include titulo($size:36px); }
 	.texto {
 		ul {
 			width: 100%;

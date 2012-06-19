@@ -142,7 +142,7 @@ header {
 }
 
 .interna {
-	h2 { @include titulo; }
+	
 	.conteudo {
 		@include grid(14);
 		@include grid-prefix(1);
