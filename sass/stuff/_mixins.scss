@@ -13,7 +13,10 @@
 
 @mixin fontfamily($embedFont : false){
     @if $embedFont == false { font-family: Tahoma, Helvetica, Arial, sans-serif; }
-    @else { font-family: "#{$embedFont}", Tahoma, Helvetica, Arial, sans-serif; }
+    @else { 
+        font-family: "#{$embedFont}", Tahoma, Helvetica, Arial, sans-serif; 
+        text-shadow: 0 0 1px rgba(0,0,0,0.3);
+    }
 }
 
 @mixin lnkcolorize($fc : #000, $lc : #000){
@@ -22,4 +25,11 @@
     &.selected{
         @include link_colors($lc,$lc,$lc,$lc,$lc);
     }
+}
+
+@mixin titulo( $size: 24px ) {
+    @include fontfamily('segoewpn-black');
+    font-size: $size;
+    font-style: italic;
+    text-transform: uppercase;
 }

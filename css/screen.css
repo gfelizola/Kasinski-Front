@@ -399,26 +399,34 @@ table {
   src: url('/kasinski/css/fonts/segoewpn-semilight.eot?#iefix') format('eot'), url('/kasinski/css/fonts/segoewpn-semilight.woff') format('woff'), url('/kasinski/css/fonts/segoewpn-semilight.ttf') format('truetype'), url('/kasinski/css/fonts/segoewpn-semilight.svg#segoewpn-semilight') format('svg'), url('/kasinski/css/fonts/segoewpn-semilight.eot?#iefix') format('embedded-opentype'); }
 
 /* line 1, ../sass/front/_geral.scss */
+html {
+  overflow-y: scroll; }
+
+/* line 3, ../sass/front/_geral.scss */
 body {
   background: black;
-  font-family: "segoewp", Tahoma, Helvetica, Arial, sans-serif; }
+  font-family: "segoewp", Tahoma, Helvetica, Arial, sans-serif;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+  color: #333333; }
 
-/* line 6, ../sass/front/_geral.scss */
+/* line 9, ../sass/front/_geral.scss */
 p {
-  font-family: "segoewpn", Tahoma, Helvetica, Arial, sans-serif; }
+  font-family: "segoewpn", Tahoma, Helvetica, Arial, sans-serif;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.3); }
 
-/* line 10, ../sass/front/_geral.scss */
+/* line 13, ../sass/front/_geral.scss */
 strong, b {
-  font-family: "segoewpn-bold", Tahoma, Helvetica, Arial, sans-serif; }
+  font-family: "segoewpn-bold", Tahoma, Helvetica, Arial, sans-serif;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.3); }
 
-/* line 28, ../sass/screen.scss */
+/* line 18, ../sass/front/_geral.scss */
 header {
   margin-left: auto;
   margin-right: auto;
   width: 960px;
   overflow: hidden;
   *zoom: 1; }
-  /* line 32, ../sass/screen.scss */
+  /* line 22, ../sass/front/_geral.scss */
   header nav {
     display: inline;
     float: left;
@@ -429,7 +437,7 @@ header {
     background-repeat: no-repeat;
     background-position: left top;
     background-color: #000000; }
-    /* line 42, ../sass/screen.scss */
+    /* line 32, ../sass/front/_geral.scss */
     header nav a.logo {
       text-indent: 110%;
       white-space: nowrap;
@@ -445,7 +453,7 @@ header {
       margin-right: 10px;
       width: 40px;
       margin-left: 0; }
-    /* line 48, ../sass/screen.scss */
+    /* line 38, ../sass/front/_geral.scss */
     header nav ul {
       margin: 0;
       padding: 0;
@@ -456,7 +464,7 @@ header {
       width: 880px;
       margin-left: 0;
       margin-right: 0; }
-    /* line 55, ../sass/screen.scss */
+    /* line 45, ../sass/front/_geral.scss */
     header nav li {
       min-height: 38px;
       display: inline;
@@ -467,22 +475,23 @@ header {
       margin-left: 0;
       margin-right: 0;
       width: 110px; }
-      /* line 62, ../sass/screen.scss */
+      /* line 52, ../sass/front/_geral.scss */
       header nav li:hover ul.submenu {
         display: block; }
-    /* line 64, ../sass/screen.scss */
+    /* line 54, ../sass/front/_geral.scss */
     header nav li a {
       display: block;
       width: 100%;
       height: 100%;
       line-height: 38px;
       font-family: "segoewp", Tahoma, Helvetica, Arial, sans-serif;
+      text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
       font-size: 11px;
       color: #ffffff;
       text-align: center;
       text-decoration: none;
       background: transparent url('/kasinski/img/menu_divisor.png?1339648446') no-repeat right top; }
-    /* line 70, ../sass/screen.scss */
+    /* line 60, ../sass/front/_geral.scss */
     header nav ul.submenu {
       width: 110px;
       margin: -1px -1px;
@@ -491,22 +500,22 @@ header {
       display: none;
       position: absolute;
       z-index: 1000; }
-      /* line 79, ../sass/screen.scss */
+      /* line 69, ../sass/front/_geral.scss */
       header nav ul.submenu li {
         height: 24px;
         min-height: 24px;
         line-height: 24px;
         margin: 0;
         padding: 2px 0; }
-      /* line 86, ../sass/screen.scss */
+      /* line 76, ../sass/front/_geral.scss */
       header nav ul.submenu li a {
         background-image: none;
         height: 24px;
         line-height: 24px; }
-        /* line 90, ../sass/screen.scss */
+        /* line 80, ../sass/front/_geral.scss */
         header nav ul.submenu li a:hover {
           background: #545454; }
-      /* line 95, ../sass/screen.scss */
+      /* line 85, ../sass/front/_geral.scss */
       header nav ul.submenu.produtos {
         width: 940px !important;
         height: 100px !important;
@@ -536,7 +545,7 @@ header {
           /* line 50, C:/Ruby/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
           header nav ul.submenu.produtos li.last {
             padding-right: 0; }
-        /* line 102, ../sass/screen.scss */
+        /* line 92, ../sass/front/_geral.scss */
         header nav ul.submenu.produtos li {
           width: 120px;
           height: 100px;
@@ -544,10 +553,10 @@ header {
           -moz-box-sizing: border-box;
           box-sizing: border-box;
           background: transparent url('/kasinski/img/menu_motos_divisor.png?1339976269') no-repeat right center; }
-          /* line 108, ../sass/screen.scss */
+          /* line 98, ../sass/front/_geral.scss */
           header nav ul.submenu.produtos li.atual, header nav ul.submenu.produtos li:hover {
             border-bottom: 5px solid #cc3333; }
-        /* line 113, ../sass/screen.scss */
+        /* line 103, ../sass/front/_geral.scss */
         header nav ul.submenu.produtos li a {
           display: block;
           width: 100%;
@@ -560,10 +569,10 @@ header {
           color: black;
           line-height: 15px;
           padding-top: 10px; }
-          /* line 124, ../sass/screen.scss */
+          /* line 114, ../sass/front/_geral.scss */
           header nav ul.submenu.produtos li a:hover {
             background: none; }
-    /* line 131, ../sass/screen.scss */
+    /* line 121, ../sass/front/_geral.scss */
     header nav li.busca {
       display: inline;
       float: left;
@@ -573,14 +582,64 @@ header {
       margin-left: 0;
       margin-right: 0; }
 
-/* line 141, ../sass/screen.scss */
+/* line 129, ../sass/front/_geral.scss */
+.header {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 940px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 78px;
+  padding: 20px 0 0 40px;
+  background-color: white;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #e6e6e6));
+  background-image: -webkit-linear-gradient(#ffffff, #e6e6e6);
+  background-image: -moz-linear-gradient(#ffffff, #e6e6e6);
+  background-image: -o-linear-gradient(#ffffff, #e6e6e6);
+  background-image: -ms-linear-gradient(#ffffff, #e6e6e6);
+  background-image: linear-gradient(#ffffff, #e6e6e6);
+  -webkit-box-shadow: black 0px 10px;
+  -moz-box-shadow: black 0px 10px;
+  box-shadow: black 0px 10px; }
+
+/* line 139, ../sass/front/_geral.scss */
+#main {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+  overflow: hidden;
+  *zoom: 1; }
+
+/* line 145, ../sass/front/_geral.scss */
+.interna h2 {
+  font-family: "segoewpn-black", Tahoma, Helvetica, Arial, sans-serif;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+  font-size: 24px;
+  font-style: italic;
+  text-transform: uppercase; }
+/* line 146, ../sass/front/_geral.scss */
+.interna .conteudo {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 820px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 50px;
+  background: white url('/kasinski/img/home_destaque_bg.png?1339979829') repeat left top; }
+
+/* line 155, ../sass/front/_geral.scss */
 footer {
   margin-left: auto;
   margin-right: auto;
   width: 960px;
   overflow: hidden;
   *zoom: 1; }
-  /* line 145, ../sass/screen.scss */
+  /* line 159, ../sass/front/_geral.scss */
   footer .social {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -588,7 +647,7 @@ footer {
     height: 209px;
     padding: 10px 0;
     background: transparent url('/kasinski/img/social_bg.png?1339986175') no-repeat top center; }
-    /* line 152, ../sass/screen.scss */
+    /* line 166, ../sass/front/_geral.scss */
     footer .social .twitter {
       display: inline;
       float: left;
@@ -601,13 +660,13 @@ footer {
       height: 190px;
       border-right: 1px dashed #c3c3c3;
       padding: 10px; }
-      /* line 159, ../sass/screen.scss */
+      /* line 173, ../sass/front/_geral.scss */
       footer .social .twitter .twitter_logo {
         display: inline;
         float: left;
         margin-left: 50px;
         margin-top: 50px; }
-      /* line 165, ../sass/screen.scss */
+      /* line 179, ../sass/front/_geral.scss */
       footer .social .twitter .conteudo {
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
@@ -616,23 +675,25 @@ footer {
         float: left;
         width: 360px;
         padding: 10px; }
-        /* line 171, ../sass/screen.scss */
+        /* line 185, ../sass/front/_geral.scss */
         footer .social .twitter .conteudo .titulo {
           color: #cc3333;
           font-family: "segoewp-black", Tahoma, Helvetica, Arial, sans-serif;
+          text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
           text-decoration: none;
           font-size: 20px; }
-          /* line 177, ../sass/screen.scss */
+          /* line 191, ../sass/front/_geral.scss */
           footer .social .twitter .conteudo .titulo img {
             vertical-align: text-bottom;
             margin-left: 10px; }
-        /* line 184, ../sass/screen.scss */
+        /* line 198, ../sass/front/_geral.scss */
         footer .social .twitter .conteudo p .data {
-          font-family: "segoewp-bold", Tahoma, Helvetica, Arial, sans-serif; }
-        /* line 188, ../sass/screen.scss */
+          font-family: "segoewp-bold", Tahoma, Helvetica, Arial, sans-serif;
+          text-shadow: 0 0 1px rgba(0, 0, 0, 0.3); }
+        /* line 202, ../sass/front/_geral.scss */
         footer .social .twitter .conteudo p a {
           color: #cc3333; }
-    /* line 195, ../sass/screen.scss */
+    /* line 209, ../sass/front/_geral.scss */
     footer .social .facebook {
       display: inline;
       float: left;
@@ -641,10 +702,10 @@ footer {
       width: 400px;
       margin-right: 0;
       padding-top: 30px; }
-      /* line 200, ../sass/screen.scss */
+      /* line 214, ../sass/front/_geral.scss */
       footer .social .facebook .fb-like-box {
         background: white; }
-  /* line 207, ../sass/screen.scss */
+  /* line 221, ../sass/front/_geral.scss */
   footer .sitemap .cima {
     margin-left: auto;
     margin-right: auto;
@@ -653,7 +714,7 @@ footer {
     *zoom: 1;
     height: 85px;
     background: transparent url('/kasinski/img/footer_sitemap_cima_bg.png?1340073624') no-repeat top center; }
-    /* line 213, ../sass/screen.scss */
+    /* line 227, ../sass/front/_geral.scss */
     footer .sitemap .cima h3 {
       display: inline;
       float: left;
@@ -663,8 +724,9 @@ footer {
       padding-left: 60px;
       margin-left: 0;
       margin-right: 0;
-      font-family: "segoewpn-black", Tahoma, Helvetica, Arial, sans-serif; }
-    /* line 221, ../sass/screen.scss */
+      font-family: "segoewpn-black", Tahoma, Helvetica, Arial, sans-serif;
+      text-shadow: 0 0 1px rgba(0, 0, 0, 0.3); }
+    /* line 235, ../sass/front/_geral.scss */
     footer .sitemap .cima .newsletter {
       display: inline;
       float: left;
@@ -672,12 +734,12 @@ footer {
       margin-right: 10px;
       width: 400px;
       height: 85px; }
-      /* line 225, ../sass/screen.scss */
+      /* line 239, ../sass/front/_geral.scss */
       footer .sitemap .cima .newsletter label {
         font-family: "segoewpn-black", Tahoma, Helvetica, Arial, sans-serif;
-        font-size: 14px;
-        color: #333333; }
-      /* line 231, ../sass/screen.scss */
+        text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+        font-size: 14px; }
+      /* line 244, ../sass/front/_geral.scss */
       footer .sitemap .cima .newsletter form {
         width: 340px;
         height: 30px;
@@ -692,14 +754,15 @@ footer {
         -moz-box-sizing: border-box;
         box-sizing: border-box;
         padding: 0 5px; }
-        /* line 240, ../sass/screen.scss */
+        /* line 253, ../sass/front/_geral.scss */
         footer .sitemap .cima .newsletter form input {
           border: 0;
           font-family: "segoewpn", Tahoma, Helvetica, Arial, sans-serif;
+          text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
           font-size: 11px;
           color: #999999;
           width: 248px; }
-        /* line 248, ../sass/screen.scss */
+        /* line 261, ../sass/front/_geral.scss */
         footer .sitemap .cima .newsletter form button {
           width: 75px;
           height: 20px;
@@ -710,10 +773,11 @@ footer {
           -o-border-radius: 2px;
           border-radius: 2px;
           font-family: "segoewp-black", Tahoma, Helvetica, Arial, sans-serif;
+          text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
           font-size: 10px;
           color: #ffffff;
           background: #999999; }
-    /* line 260, ../sass/screen.scss */
+    /* line 273, ../sass/front/_geral.scss */
     footer .sitemap .cima .social_links {
       display: inline;
       float: left;
@@ -723,7 +787,7 @@ footer {
       margin-left: 0;
       height: 70px;
       padding-top: 15px; }
-      /* line 266, ../sass/screen.scss */
+      /* line 279, ../sass/front/_geral.scss */
       footer .sitemap .cima .social_links a {
         width: 32px;
         height: 32px;
@@ -731,7 +795,7 @@ footer {
         display: inline;
         float: left;
         margin-right: 10px; }
-        /* line 273, ../sass/screen.scss */
+        /* line 286, ../sass/front/_geral.scss */
         footer .sitemap .cima .social_links a.facebook {
           text-indent: 110%;
           white-space: nowrap;
@@ -739,7 +803,7 @@ footer {
           background-image: url('/kasinski/img/sitemap_social_links.png?1340073753');
           background-repeat: no-repeat;
           background-position: 0 0; }
-        /* line 276, ../sass/screen.scss */
+        /* line 289, ../sass/front/_geral.scss */
         footer .sitemap .cima .social_links a.twitter {
           text-indent: 110%;
           white-space: nowrap;
@@ -747,7 +811,7 @@ footer {
           background-image: url('/kasinski/img/sitemap_social_links.png?1340073753');
           background-repeat: no-repeat;
           background-position: -42px 0; }
-        /* line 279, ../sass/screen.scss */
+        /* line 292, ../sass/front/_geral.scss */
         footer .sitemap .cima .social_links a.flickr {
           text-indent: 110%;
           white-space: nowrap;
@@ -755,7 +819,7 @@ footer {
           background-image: url('/kasinski/img/sitemap_social_links.png?1340073753');
           background-repeat: no-repeat;
           background-position: -90px 0; }
-        /* line 282, ../sass/screen.scss */
+        /* line 295, ../sass/front/_geral.scss */
         footer .sitemap .cima .social_links a.youtube {
           text-indent: 110%;
           white-space: nowrap;
@@ -763,7 +827,7 @@ footer {
           background-image: url('/kasinski/img/sitemap_social_links.png?1340073753');
           background-repeat: no-repeat;
           background-position: -135px 0; }
-        /* line 285, ../sass/screen.scss */
+        /* line 298, ../sass/front/_geral.scss */
         footer .sitemap .cima .social_links a.blog {
           text-indent: 110%;
           white-space: nowrap;
@@ -772,7 +836,7 @@ footer {
           background-repeat: no-repeat;
           background-position: -180px 0;
           margin: 0; }
-  /* line 292, ../sass/screen.scss */
+  /* line 305, ../sass/front/_geral.scss */
   footer .sitemap .baixo {
     display: inline;
     float: left;
@@ -780,11 +844,11 @@ footer {
     margin-right: 10px;
     width: 940px;
     background: transparent url('/kasinski/img/footer_sitemap_baixo_bg.png?1340073668') no-repeat top center; }
-    /* line 296, ../sass/screen.scss */
+    /* line 309, ../sass/front/_geral.scss */
     footer .sitemap .baixo ul {
       margin-left: 40px;
       width: 920px; }
-      /* line 300, ../sass/screen.scss */
+      /* line 313, ../sass/front/_geral.scss */
       footer .sitemap .baixo ul li {
         border-left: 2px solid #cbcbcb;
         display: inline;
@@ -794,15 +858,16 @@ footer {
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box; }
-        /* line 307, ../sass/screen.scss */
+        /* line 320, ../sass/front/_geral.scss */
         footer .sitemap .baixo ul li a {
           display: block;
           padding: 2px 10px;
           color: #000000;
           text-decoration: none;
           font-family: "segoewp", Tahoma, Helvetica, Arial, sans-serif;
+          text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
           font-size: 14px; }
-    /* line 318, ../sass/screen.scss */
+    /* line 331, ../sass/front/_geral.scss */
     footer .sitemap .baixo .direitos {
       overflow: hidden;
       *zoom: 1;
@@ -813,192 +878,166 @@ footer {
       padding: 20px 40px;
       color: #666666;
       font-family: "segoewp", Tahoma, Helvetica, Arial, sans-serif;
+      text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
       font-size: 11px; }
 
-/* line 331, ../sass/screen.scss */
-.home {
-  margin-left: auto;
-  margin-right: auto;
-  width: 960px;
-  overflow: hidden;
-  *zoom: 1; }
-  /* line 335, ../sass/screen.scss */
-  .home .header {
-    display: inline;
-    float: left;
-    margin-left: 10px;
-    margin-right: 10px;
-    width: 940px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    height: 78px;
-    padding: 20px 0 0 40px;
-    background-color: white;
-    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #e6e6e6));
-    background-image: -webkit-linear-gradient(#ffffff, #e6e6e6);
-    background-image: -moz-linear-gradient(#ffffff, #e6e6e6);
-    background-image: -o-linear-gradient(#ffffff, #e6e6e6);
-    background-image: -ms-linear-gradient(#ffffff, #e6e6e6);
-    background-image: linear-gradient(#ffffff, #e6e6e6);
-    -webkit-box-shadow: black 0px 10px;
-    -moz-box-shadow: black 0px 10px;
-    box-shadow: black 0px 10px; }
-  /* line 345, ../sass/screen.scss */
-  .home .slider {
-    position: relative;
-    display: inline;
-    float: left;
-    margin-left: 10px;
-    margin-right: 10px;
-    width: 940px; }
-    /* line 349, ../sass/screen.scss */
-    .home .slider .dots {
-      position: absolute;
-      width: auto;
-      right: 40px;
-      bottom: 10px;
-      margin: 0;
-      padding: 0;
-      border: 0;
-      overflow: hidden;
-      *zoom: 1; }
-      /* line 60, C:/Ruby/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-      .home .slider .dots li {
-        list-style-image: none;
-        list-style-type: none;
-        margin-left: 0;
+/* line 28, ../sass/screen.scss */
+.home .slider {
+  position: relative;
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 940px; }
+  /* line 32, ../sass/screen.scss */
+  .home .slider .dots {
+    position: absolute;
+    width: auto;
+    right: 40px;
+    bottom: 10px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    *zoom: 1; }
+    /* line 60, C:/Ruby/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+    .home .slider .dots li {
+      list-style-image: none;
+      list-style-type: none;
+      margin-left: 0;
+      white-space: nowrap;
+      display: inline;
+      float: left;
+      padding-left: 4px;
+      padding-right: 4px; }
+      /* line 48, C:/Ruby/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+      .home .slider .dots li:first-child, .home .slider .dots li.first {
+        padding-left: 0; }
+      /* line 49, C:/Ruby/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+      .home .slider .dots li:last-child {
+        padding-right: 0; }
+      /* line 50, C:/Ruby/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+      .home .slider .dots li.last {
+        padding-right: 0; }
+    /* line 39, ../sass/screen.scss */
+    .home .slider .dots li {
+      width: 14px;
+      height: 14px;
+      margin: 0 3px; }
+      /* line 44, ../sass/screen.scss */
+      .home .slider .dots li a {
+        display: block;
+        text-indent: 110%;
         white-space: nowrap;
-        display: inline;
-        float: left;
-        padding-left: 4px;
-        padding-right: 4px; }
-        /* line 48, C:/Ruby/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-        .home .slider .dots li:first-child, .home .slider .dots li.first {
-          padding-left: 0; }
-        /* line 49, C:/Ruby/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-        .home .slider .dots li:last-child {
-          padding-right: 0; }
-        /* line 50, C:/Ruby/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-        .home .slider .dots li.last {
-          padding-right: 0; }
-      /* line 356, ../sass/screen.scss */
-      .home .slider .dots li {
+        overflow: hidden;
+        background-image: url('/kasinski/img/home_slider_dot.png?1339977928');
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
         width: 14px;
-        height: 14px;
-        margin: 0 3px; }
-        /* line 361, ../sass/screen.scss */
-        .home .slider .dots li a {
-          display: block;
+        height: 14px; }
+        /* line 48, ../sass/screen.scss */
+        .home .slider .dots li a:hover, .home .slider .dots li a.atual {
           text-indent: 110%;
           white-space: nowrap;
           overflow: hidden;
-          background-image: url('/kasinski/img/home_slider_dot.png?1339977928');
+          background-image: url('/kasinski/img/home_slider_dot_atual.png?1339977907');
           background-repeat: no-repeat;
           background-position: 50% 50%;
           width: 14px;
           height: 14px; }
-          /* line 365, ../sass/screen.scss */
-          .home .slider .dots li a:hover, .home .slider .dots li a.atual {
-            text-indent: 110%;
-            white-space: nowrap;
-            overflow: hidden;
-            background-image: url('/kasinski/img/home_slider_dot_atual.png?1339977907');
-            background-repeat: no-repeat;
-            background-position: 50% 50%;
-            width: 14px;
-            height: 14px; }
-    /* line 372, ../sass/screen.scss */
-    .home .slider .destaques {
-      height: 382px;
-      width: 100%;
-      margin: 0;
-      padding: 0;
-      border: 0;
-      overflow: hidden;
-      *zoom: 1; }
-      /* line 60, C:/Ruby/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-      .home .slider .destaques li {
-        list-style-image: none;
-        list-style-type: none;
-        margin-left: 0;
-        white-space: nowrap;
+  /* line 55, ../sass/screen.scss */
+  .home .slider .destaques {
+    height: 382px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    *zoom: 1; }
+    /* line 60, C:/Ruby/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+    .home .slider .destaques li {
+      list-style-image: none;
+      list-style-type: none;
+      margin-left: 0;
+      white-space: nowrap;
+      display: inline;
+      float: left;
+      padding-left: 4px;
+      padding-right: 4px; }
+      /* line 48, C:/Ruby/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+      .home .slider .destaques li:first-child, .home .slider .destaques li.first {
+        padding-left: 0; }
+      /* line 49, C:/Ruby/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+      .home .slider .destaques li:last-child {
+        padding-right: 0; }
+      /* line 50, C:/Ruby/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+      .home .slider .destaques li.last {
+        padding-right: 0; }
+    /* line 60, ../sass/screen.scss */
+    .home .slider .destaques li {
+      width: 940px;
+      background: white url('/kasinski/img/home_destaque_bg.png?1339979829') repeat-x top right;
+      margin-left: auto;
+      margin-right: auto;
+      width: 960px; }
+      /* line 65, ../sass/screen.scss */
+      .home .slider .destaques li img {
         display: inline;
         float: left;
-        padding-left: 4px;
-        padding-right: 4px; }
-        /* line 48, C:/Ruby/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-        .home .slider .destaques li:first-child, .home .slider .destaques li.first {
-          padding-left: 0; }
-        /* line 49, C:/Ruby/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-        .home .slider .destaques li:last-child {
-          padding-right: 0; }
-        /* line 50, C:/Ruby/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-        .home .slider .destaques li.last {
-          padding-right: 0; }
-      /* line 377, ../sass/screen.scss */
-      .home .slider .destaques li {
-        width: 940px;
-        background: white url('/kasinski/img/home_destaque_bg.png?1339979829') repeat-x top right;
-        margin-left: auto;
-        margin-right: auto;
-        width: 960px; }
-        /* line 382, ../sass/screen.scss */
-        .home .slider .destaques li img {
-          display: inline;
-          float: left;
-          margin-left: 10px;
-          margin-right: 10px;
-          width: 580px;
-          margin-left: 0; }
-        /* line 386, ../sass/screen.scss */
-        .home .slider .destaques li div {
-          display: inline;
-          float: left;
-          margin-left: 10px;
-          margin-right: 10px;
-          width: 340px;
-          -webkit-box-sizing: border-box;
-          -moz-box-sizing: border-box;
-          box-sizing: border-box;
-          padding-right: 40px; }
-          /* line 391, ../sass/screen.scss */
-          .home .slider .destaques li div h2 {
-            white-space: pre;
-            white-space: pre-wrap;
-            white-space: pre-line;
-            white-space: -pre-wrap;
-            white-space: -o-pre-wrap;
-            white-space: -moz-pre-wrap;
-            white-space: -hp-pre-wrap;
-            word-wrap: break-word;
-            font-family: "segoewpn-black", Tahoma, Helvetica, Arial, sans-serif;
-            font-size: 30px;
-            font-style: italic;
-            line-height: 25px; }
-          /* line 399, ../sass/screen.scss */
-          .home .slider .destaques li div p {
-            white-space: pre;
-            white-space: pre-wrap;
-            white-space: pre-line;
-            white-space: -pre-wrap;
-            white-space: -o-pre-wrap;
-            white-space: -moz-pre-wrap;
-            white-space: -hp-pre-wrap;
-            word-wrap: break-word;
-            font-family: "segoewpn", Tahoma, Helvetica, Arial, sans-serif; }
-            /* line 402, ../sass/screen.scss */
-            .home .slider .destaques li div p font {
-              size: 14px;
-              weight: bold; }
-          /* line 408, ../sass/screen.scss */
-          .home .slider .destaques li div a.leia-mais {
-            color: #cc3333; }
-            /* line 410, ../sass/screen.scss */
-            .home .slider .destaques li div a.leia-mais:hover {
-              color: black; }
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 580px;
+        margin-left: 0; }
+      /* line 69, ../sass/screen.scss */
+      .home .slider .destaques li div {
+        display: inline;
+        float: left;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 340px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding-right: 40px; }
+        /* line 74, ../sass/screen.scss */
+        .home .slider .destaques li div h2 {
+          white-space: pre;
+          white-space: pre-wrap;
+          white-space: pre-line;
+          white-space: -pre-wrap;
+          white-space: -o-pre-wrap;
+          white-space: -moz-pre-wrap;
+          white-space: -hp-pre-wrap;
+          word-wrap: break-word;
+          font-family: "segoewpn-black", Tahoma, Helvetica, Arial, sans-serif;
+          text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+          font-size: 30px;
+          font-style: italic;
+          line-height: 25px; }
+        /* line 82, ../sass/screen.scss */
+        .home .slider .destaques li div p {
+          white-space: pre;
+          white-space: pre-wrap;
+          white-space: pre-line;
+          white-space: -pre-wrap;
+          white-space: -o-pre-wrap;
+          white-space: -moz-pre-wrap;
+          white-space: -hp-pre-wrap;
+          word-wrap: break-word;
+          font-family: "segoewpn", Tahoma, Helvetica, Arial, sans-serif;
+          text-shadow: 0 0 1px rgba(0, 0, 0, 0.3); }
+          /* line 85, ../sass/screen.scss */
+          .home .slider .destaques li div p font {
+            size: 14px;
+            weight: bold; }
+        /* line 91, ../sass/screen.scss */
+        .home .slider .destaques li div a.leia-mais {
+          color: #cc3333; }
+          /* line 93, ../sass/screen.scss */
+          .home .slider .destaques li div a.leia-mais:hover {
+            color: black; }
 
-/* line 420, ../sass/screen.scss */
+/* line 103, ../sass/screen.scss */
 .carrosel-noticias {
   display: inline;
   float: left;
@@ -1018,7 +1057,7 @@ footer {
   -o-background-size: 940px 200px;
   background-size: 940px 200px;
   position: relative; }
-  /* line 435, ../sass/screen.scss */
+  /* line 118, ../sass/screen.scss */
   .carrosel-noticias .seta {
     display: inline;
     float: left;
@@ -1028,7 +1067,7 @@ footer {
     height: 200px;
     position: absolute;
     top: 0; }
-    /* line 441, ../sass/screen.scss */
+    /* line 124, ../sass/screen.scss */
     .carrosel-noticias .seta.esquerda {
       text-indent: 110%;
       white-space: nowrap;
@@ -1038,7 +1077,7 @@ footer {
       background-position: 50% 50%;
       margin-left: 0;
       left: 0; }
-    /* line 446, ../sass/screen.scss */
+    /* line 129, ../sass/screen.scss */
     .carrosel-noticias .seta.direita {
       text-indent: 110%;
       white-space: nowrap;
@@ -1048,15 +1087,15 @@ footer {
       background-position: 50% 50%;
       margin-right: 0;
       right: 0; }
-  /* line 453, ../sass/screen.scss */
+  /* line 136, ../sass/screen.scss */
   .carrosel-noticias .container-noticias {
     width: 850px;
     margin-left: 45px;
     overflow: hidden; }
-  /* line 459, ../sass/screen.scss */
+  /* line 142, ../sass/screen.scss */
   .carrosel-noticias .noticias {
     width: 30000px; }
-    /* line 462, ../sass/screen.scss */
+    /* line 145, ../sass/screen.scss */
     .carrosel-noticias .noticias li {
       display: inline;
       float: left;
@@ -1070,7 +1109,7 @@ footer {
       margin-left: 15px;
       padding: 10px;
       position: relative; }
-      /* line 473, ../sass/screen.scss */
+      /* line 156, ../sass/screen.scss */
       .carrosel-noticias .noticias li .call-to-action {
         position: absolute;
         display: block;
@@ -1085,3 +1124,89 @@ footer {
         text-decoration: none;
         left: 0;
         bottom: 0; }
+
+/* line 174, ../sass/screen.scss */
+.institucional .texto {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  -o-column-count: 2;
+  column-count: 2;
+  -webkit-column-gap: 60px;
+  -moz-column-gap: 60px;
+  -o-column-gap: 60px;
+  column-gap: 60px;
+  font-size: 12px; }
+
+/* line 183, ../sass/screen.scss */
+.noticias .texto ul {
+  width: 100%; }
+  /* line 186, ../sass/screen.scss */
+  .noticias .texto ul li {
+    list-style: none;
+    width: 100%;
+    padding: 20px 0;
+    margin: 0;
+    border-bottom: 1px solid #c1c1c1;
+    display: inline;
+    float: left; }
+    /* line 194, ../sass/screen.scss */
+    .noticias .texto ul li .imagem {
+      display: inline;
+      float: left;
+      width: 200px; }
+    /* line 198, ../sass/screen.scss */
+    .noticias .texto ul li .dados {
+      display: inline;
+      float: left;
+      width: 615px; }
+      /* line 202, ../sass/screen.scss */
+      .noticias .texto ul li .dados h3 {
+        font-family: "segoewpn-black", Tahoma, Helvetica, Arial, sans-serif;
+        text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+        font-size: 16px;
+        margin: 0; }
+        /* line 207, ../sass/screen.scss */
+        .noticias .texto ul li .dados h3 span {
+          color: #cc3333;
+          display: block;
+          width: 100%; }
+      /* line 214, ../sass/screen.scss */
+      .noticias .texto ul li .dados p {
+        font-size: 12px; }
+
+/* line 225, ../sass/screen.scss */
+.premios .texto ul {
+  width: 100%; }
+  /* line 228, ../sass/screen.scss */
+  .premios .texto ul li {
+    list-style: none;
+    width: 100%;
+    padding: 20px 0;
+    margin: 0;
+    border-bottom: 1px solid #c1c1c1;
+    display: inline;
+    float: left; }
+    /* line 236, ../sass/screen.scss */
+    .premios .texto ul li .imagem {
+      display: inline;
+      float: left;
+      width: 200px; }
+    /* line 240, ../sass/screen.scss */
+    .premios .texto ul li .dados {
+      display: inline;
+      float: left;
+      width: 615px; }
+      /* line 244, ../sass/screen.scss */
+      .premios .texto ul li .dados h3 {
+        font-family: "segoewpn-black", Tahoma, Helvetica, Arial, sans-serif;
+        text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+        font-size: 16px;
+        margin: 0; }
+        /* line 249, ../sass/screen.scss */
+        .premios .texto ul li .dados h3 span {
+          color: #cc3333;
+          display: block;
+          width: 100%; }
+      /* line 256, ../sass/screen.scss */
+      .premios .texto ul li .dados p {
+        font-size: 12px; }

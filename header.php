@@ -24,7 +24,7 @@
 			<a href="index.html" class="logo">HOME</a>
 			<ul>
 				<li>
-					<a href="#" class="item">Home</a>
+					<a href="index.php" class="item">Home</a>
 				</li>
 				<li>
 					<a href="#" class="item">Produtos</a>
@@ -46,12 +46,13 @@
 					<a href="#" class="item">Consórcio</a>
 				</li>
 				<li>
-					<a href="#" class="item">Institucional</a>
+					<a href="institucional.php" class="item">Institucional</a>
 					<ul class="submenu">
 						<li><a href="#">Fábricas</a></li>
 						<li><a href="#">Zongchen</a></li>
 						<li><a href="#">CRZ-EPower</a></li>
-						<li><a href="#">Prêmios</a></li>
+						<li><a href="noticias.php">Notícias</a></li>
+						<li><a href="premios.php">Prêmios</a></li>
 						<li><a href="#">Imprensa</a></li>
 						<li><a href="#">Políticas</a></li>
 						<li><a href="#">Frotistas</a></li>
