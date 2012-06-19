@@ -340,63 +340,63 @@ table {
 
 @font-face {
   font-family: "segoewp";
-  src: url('/front/css/fonts/segoewp.eot');
-  src: url('/front/css/fonts/segoewp.eot?#iefix') format('eot'), url('/front/css/fonts/segoewp.woff') format('woff'), url('/front/css/fonts/segoewp.ttf') format('truetype'), url('/front/css/fonts/segoewp.svg#segoewp') format('svg'), url('/front/css/fonts/segoewp.eot?#iefix') format('embedded-opentype'); }
+  src: url('/kasinski/css/fonts/segoewp.eot');
+  src: url('/kasinski/css/fonts/segoewp.eot?#iefix') format('eot'), url('/kasinski/css/fonts/segoewp.woff') format('woff'), url('/kasinski/css/fonts/segoewp.ttf') format('truetype'), url('/kasinski/css/fonts/segoewp.svg#segoewp') format('svg'), url('/kasinski/css/fonts/segoewp.eot?#iefix') format('embedded-opentype'); }
 
 @font-face {
   font-family: "segoewp-light";
-  src: url('/front/css/fonts/segoewp-light.eot');
-  src: url('/front/css/fonts/segoewp-light.eot?#iefix') format('eot'), url('/front/css/fonts/segoewp-light.woff') format('woff'), url('/front/css/fonts/segoewp-light.ttf') format('truetype'), url('/front/css/fonts/segoewp-light.svg#segoewp-light') format('svg'), url('/front/css/fonts/segoewp-light.eot?#iefix') format('embedded-opentype'); }
+  src: url('/kasinski/css/fonts/segoewp-light.eot');
+  src: url('/kasinski/css/fonts/segoewp-light.eot?#iefix') format('eot'), url('/kasinski/css/fonts/segoewp-light.woff') format('woff'), url('/kasinski/css/fonts/segoewp-light.ttf') format('truetype'), url('/kasinski/css/fonts/segoewp-light.svg#segoewp-light') format('svg'), url('/kasinski/css/fonts/segoewp-light.eot?#iefix') format('embedded-opentype'); }
 
 @font-face {
   font-family: "segoewp-black";
-  src: url('/front/css/fonts/segoewp-black.eot');
-  src: url('/front/css/fonts/segoewp-black.eot?#iefix') format('eot'), url('/front/css/fonts/segoewp-black.woff') format('woff'), url('/front/css/fonts/segoewp-black.ttf') format('truetype'), url('/front/css/fonts/segoewp-black.svg#segoewp-black') format('svg'), url('/front/css/fonts/segoewp-black.eot?#iefix') format('embedded-opentype'); }
+  src: url('/kasinski/css/fonts/segoewp-black.eot');
+  src: url('/kasinski/css/fonts/segoewp-black.eot?#iefix') format('eot'), url('/kasinski/css/fonts/segoewp-black.woff') format('woff'), url('/kasinski/css/fonts/segoewp-black.ttf') format('truetype'), url('/kasinski/css/fonts/segoewp-black.svg#segoewp-black') format('svg'), url('/kasinski/css/fonts/segoewp-black.eot?#iefix') format('embedded-opentype'); }
 
 @font-face {
   font-family: "segoewp-bold";
-  src: url('/front/css/fonts/segoewp-bold.eot');
-  src: url('/front/css/fonts/segoewp-bold.eot?#iefix') format('eot'), url('/front/css/fonts/segoewp-bold.woff') format('woff'), url('/front/css/fonts/segoewp-bold.ttf') format('truetype'), url('/front/css/fonts/segoewp-bold.svg#segoewp-bold') format('svg'), url('/front/css/fonts/segoewp-bold.eot?#iefix') format('embedded-opentype'); }
+  src: url('/kasinski/css/fonts/segoewp-bold.eot');
+  src: url('/kasinski/css/fonts/segoewp-bold.eot?#iefix') format('eot'), url('/kasinski/css/fonts/segoewp-bold.woff') format('woff'), url('/kasinski/css/fonts/segoewp-bold.ttf') format('truetype'), url('/kasinski/css/fonts/segoewp-bold.svg#segoewp-bold') format('svg'), url('/kasinski/css/fonts/segoewp-bold.eot?#iefix') format('embedded-opentype'); }
 
 @font-face {
   font-family: "segoewp-semibold";
-  src: url('/front/css/fonts/segoewp-semibold.eot');
-  src: url('/front/css/fonts/segoewp-semibold.eot?#iefix') format('eot'), url('/front/css/fonts/segoewp-semibold.woff') format('woff'), url('/front/css/fonts/segoewp-semibold.ttf') format('truetype'), url('/front/css/fonts/segoewp-semibold.svg#segoewp-semibold') format('svg'), url('/front/css/fonts/segoewp-semibold.eot?#iefix') format('embedded-opentype'); }
+  src: url('/kasinski/css/fonts/segoewp-semibold.eot');
+  src: url('/kasinski/css/fonts/segoewp-semibold.eot?#iefix') format('eot'), url('/kasinski/css/fonts/segoewp-semibold.woff') format('woff'), url('/kasinski/css/fonts/segoewp-semibold.ttf') format('truetype'), url('/kasinski/css/fonts/segoewp-semibold.svg#segoewp-semibold') format('svg'), url('/kasinski/css/fonts/segoewp-semibold.eot?#iefix') format('embedded-opentype'); }
 
 @font-face {
   font-family: "segoewp-semilight";
-  src: url('/front/css/fonts/segoewp-semilight.eot');
-  src: url('/front/css/fonts/segoewp-semilight.eot?#iefix') format('eot'), url('/front/css/fonts/segoewp-semilight.woff') format('woff'), url('/front/css/fonts/segoewp-semilight.ttf') format('truetype'), url('/front/css/fonts/segoewp-semilight.svg#segoewp-semilight') format('svg'), url('/front/css/fonts/segoewp-semilight.eot?#iefix') format('embedded-opentype'); }
+  src: url('/kasinski/css/fonts/segoewp-semilight.eot');
+  src: url('/kasinski/css/fonts/segoewp-semilight.eot?#iefix') format('eot'), url('/kasinski/css/fonts/segoewp-semilight.woff') format('woff'), url('/kasinski/css/fonts/segoewp-semilight.ttf') format('truetype'), url('/kasinski/css/fonts/segoewp-semilight.svg#segoewp-semilight') format('svg'), url('/kasinski/css/fonts/segoewp-semilight.eot?#iefix') format('embedded-opentype'); }
 
 @font-face {
   font-family: "segoewpn";
-  src: url('/front/css/fonts/segoewpn.eot');
-  src: url('/front/css/fonts/segoewpn.eot?#iefix') format('eot'), url('/front/css/fonts/segoewpn.woff') format('woff'), url('/front/css/fonts/segoewpn.ttf') format('truetype'), url('/front/css/fonts/segoewpn.svg#segoewpn') format('svg'), url('/front/css/fonts/segoewpn.eot?#iefix') format('embedded-opentype'); }
+  src: url('/kasinski/css/fonts/segoewpn.eot');
+  src: url('/kasinski/css/fonts/segoewpn.eot?#iefix') format('eot'), url('/kasinski/css/fonts/segoewpn.woff') format('woff'), url('/kasinski/css/fonts/segoewpn.ttf') format('truetype'), url('/kasinski/css/fonts/segoewpn.svg#segoewpn') format('svg'), url('/kasinski/css/fonts/segoewpn.eot?#iefix') format('embedded-opentype'); }
 
 @font-face {
   font-family: "segoewpn-light";
-  src: url('/front/css/fonts/segoewpn-light.eot');
-  src: url('/front/css/fonts/segoewpn-light.eot?#iefix') format('eot'), url('/front/css/fonts/segoewpn-light.woff') format('woff'), url('/front/css/fonts/segoewpn-light.ttf') format('truetype'), url('/front/css/fonts/segoewpn-light.svg#segoewpn-light') format('svg'), url('/front/css/fonts/segoewpn-light.eot?#iefix') format('embedded-opentype'); }
+  src: url('/kasinski/css/fonts/segoewpn-light.eot');
+  src: url('/kasinski/css/fonts/segoewpn-light.eot?#iefix') format('eot'), url('/kasinski/css/fonts/segoewpn-light.woff') format('woff'), url('/kasinski/css/fonts/segoewpn-light.ttf') format('truetype'), url('/kasinski/css/fonts/segoewpn-light.svg#segoewpn-light') format('svg'), url('/kasinski/css/fonts/segoewpn-light.eot?#iefix') format('embedded-opentype'); }
 
 @font-face {
   font-family: "segoewpn-black";
-  src: url('/front/css/fonts/segoewpn-black.eot');
-  src: url('/front/css/fonts/segoewpn-black.eot?#iefix') format('eot'), url('/front/css/fonts/segoewpn-black.woff') format('woff'), url('/front/css/fonts/segoewpn-black.ttf') format('truetype'), url('/front/css/fonts/segoewpn-black.svg#segoewpn-black') format('svg'), url('/front/css/fonts/segoewpn-black.eot?#iefix') format('embedded-opentype'); }
+  src: url('/kasinski/css/fonts/segoewpn-black.eot');
+  src: url('/kasinski/css/fonts/segoewpn-black.eot?#iefix') format('eot'), url('/kasinski/css/fonts/segoewpn-black.woff') format('woff'), url('/kasinski/css/fonts/segoewpn-black.ttf') format('truetype'), url('/kasinski/css/fonts/segoewpn-black.svg#segoewpn-black') format('svg'), url('/kasinski/css/fonts/segoewpn-black.eot?#iefix') format('embedded-opentype'); }
 
 @font-face {
   font-family: "segoewpn-bold";
-  src: url('/front/css/fonts/segoewpn-bold.eot');
-  src: url('/front/css/fonts/segoewpn-bold.eot?#iefix') format('eot'), url('/front/css/fonts/segoewpn-bold.woff') format('woff'), url('/front/css/fonts/segoewpn-bold.ttf') format('truetype'), url('/front/css/fonts/segoewpn-bold.svg#segoewpn-bold') format('svg'), url('/front/css/fonts/segoewpn-bold.eot?#iefix') format('embedded-opentype'); }
+  src: url('/kasinski/css/fonts/segoewpn-bold.eot');
+  src: url('/kasinski/css/fonts/segoewpn-bold.eot?#iefix') format('eot'), url('/kasinski/css/fonts/segoewpn-bold.woff') format('woff'), url('/kasinski/css/fonts/segoewpn-bold.ttf') format('truetype'), url('/kasinski/css/fonts/segoewpn-bold.svg#segoewpn-bold') format('svg'), url('/kasinski/css/fonts/segoewpn-bold.eot?#iefix') format('embedded-opentype'); }
 
 @font-face {
   font-family: "segoewpn-semibold";
-  src: url('/front/css/fonts/segoewpn-semibold.eot');
-  src: url('/front/css/fonts/segoewpn-semibold.eot?#iefix') format('eot'), url('/front/css/fonts/segoewpn-semibold.woff') format('woff'), url('/front/css/fonts/segoewpn-semibold.ttf') format('truetype'), url('/front/css/fonts/segoewpn-semibold.svg#segoewpn-semibold') format('svg'), url('/front/css/fonts/segoewpn-semibold.eot?#iefix') format('embedded-opentype'); }
+  src: url('/kasinski/css/fonts/segoewpn-semibold.eot');
+  src: url('/kasinski/css/fonts/segoewpn-semibold.eot?#iefix') format('eot'), url('/kasinski/css/fonts/segoewpn-semibold.woff') format('woff'), url('/kasinski/css/fonts/segoewpn-semibold.ttf') format('truetype'), url('/kasinski/css/fonts/segoewpn-semibold.svg#segoewpn-semibold') format('svg'), url('/kasinski/css/fonts/segoewpn-semibold.eot?#iefix') format('embedded-opentype'); }
 
 @font-face {
   font-family: "segoewpn-semilight";
-  src: url('/front/css/fonts/segoewpn-semilight.eot');
-  src: url('/front/css/fonts/segoewpn-semilight.eot?#iefix') format('eot'), url('/front/css/fonts/segoewpn-semilight.woff') format('woff'), url('/front/css/fonts/segoewpn-semilight.ttf') format('truetype'), url('/front/css/fonts/segoewpn-semilight.svg#segoewpn-semilight') format('svg'), url('/front/css/fonts/segoewpn-semilight.eot?#iefix') format('embedded-opentype'); }
+  src: url('/kasinski/css/fonts/segoewpn-semilight.eot');
+  src: url('/kasinski/css/fonts/segoewpn-semilight.eot?#iefix') format('eot'), url('/kasinski/css/fonts/segoewpn-semilight.woff') format('woff'), url('/kasinski/css/fonts/segoewpn-semilight.ttf') format('truetype'), url('/kasinski/css/fonts/segoewpn-semilight.svg#segoewpn-semilight') format('svg'), url('/kasinski/css/fonts/segoewpn-semilight.eot?#iefix') format('embedded-opentype'); }
 
 /* line 1, ../sass/front/_geral.scss */
 body {
@@ -411,11 +411,13 @@ p {
 strong, b {
   font-family: "segoewpn-bold", Tahoma, Helvetica, Arial, sans-serif; }
 
-/* line 29, ../sass/screen.scss */
+/* line 28, ../sass/screen.scss */
 header {
   margin-left: auto;
   margin-right: auto;
-  width: 960px; }
+  width: 960px;
+  overflow: hidden;
+  *zoom: 1; }
   /* line 32, ../sass/screen.scss */
   header nav {
     display: inline;
@@ -423,7 +425,7 @@ header {
     margin-left: 10px;
     margin-right: 10px;
     width: 940px;
-    background-image: url('/front/img/menu_bg.png?1339651993');
+    background-image: url('/kasinski/img/menu_bg.png?1339651993');
     background-repeat: no-repeat;
     background-position: left top;
     background-color: #000000; }
@@ -432,7 +434,7 @@ header {
       text-indent: 110%;
       white-space: nowrap;
       overflow: hidden;
-      background-image: url('/front/img/menu_logo.png?1339648391');
+      background-image: url('/kasinski/img/menu_logo.png?1339648391');
       background-repeat: no-repeat;
       background-position: 50% 50%;
       width: 40px;
@@ -479,7 +481,7 @@ header {
       color: #ffffff;
       text-align: center;
       text-decoration: none;
-      background: transparent url('/front/img/menu_divisor.png?1339648446') no-repeat right top; }
+      background: transparent url('/kasinski/img/menu_divisor.png?1339648446') no-repeat right top; }
     /* line 70, ../sass/screen.scss */
     header nav ul.submenu {
       width: 110px;
@@ -507,8 +509,8 @@ header {
       /* line 95, ../sass/screen.scss */
       header nav ul.submenu.produtos {
         width: 940px !important;
-        height: 105px !important;
-        background: white url('/front/img/menu_motos_bg.png?1339970655') no-repeat left top;
+        height: 100px !important;
+        background: white url('/kasinski/img/menu_motos_bg.png?1339970655') no-repeat left top;
         margin: 0;
         padding: 0;
         border: 0;
@@ -537,11 +539,11 @@ header {
         /* line 102, ../sass/screen.scss */
         header nav ul.submenu.produtos li {
           width: 120px;
-          height: 105px;
+          height: 100px;
           -webkit-box-sizing: border-box;
           -moz-box-sizing: border-box;
           box-sizing: border-box;
-          background: transparent url('/front/img/menu_motos_divisor.png?1339976269') no-repeat right center; }
+          background: transparent url('/kasinski/img/menu_motos_divisor.png?1339976269') no-repeat right center; }
           /* line 108, ../sass/screen.scss */
           header nav ul.submenu.produtos li.atual, header nav ul.submenu.produtos li:hover {
             border-bottom: 5px solid #cc3333; }
@@ -585,7 +587,7 @@ footer {
     box-sizing: border-box;
     height: 209px;
     padding: 10px 0;
-    background: transparent url('/front/img/social_bg.png?1339986175') no-repeat top center; }
+    background: transparent url('/kasinski/img/social_bg.png?1339986175') no-repeat top center; }
     /* line 152, ../sass/screen.scss */
     footer .social .twitter {
       display: inline;
@@ -642,13 +644,185 @@ footer {
       /* line 200, ../sass/screen.scss */
       footer .social .facebook .fb-like-box {
         background: white; }
+  /* line 207, ../sass/screen.scss */
+  footer .sitemap .cima {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    overflow: hidden;
+    *zoom: 1;
+    height: 85px;
+    background: transparent url('/kasinski/img/footer_sitemap_cima_bg.png?1340073624') no-repeat top center; }
+    /* line 213, ../sass/screen.scss */
+    footer .sitemap .cima h3 {
+      display: inline;
+      float: left;
+      margin-left: 10px;
+      margin-right: 10px;
+      width: 220px;
+      padding-left: 60px;
+      margin-left: 0;
+      margin-right: 0;
+      font-family: "segoewpn-black", Tahoma, Helvetica, Arial, sans-serif; }
+    /* line 221, ../sass/screen.scss */
+    footer .sitemap .cima .newsletter {
+      display: inline;
+      float: left;
+      margin-left: 10px;
+      margin-right: 10px;
+      width: 400px;
+      height: 85px; }
+      /* line 225, ../sass/screen.scss */
+      footer .sitemap .cima .newsletter label {
+        font-family: "segoewpn-black", Tahoma, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #333333; }
+      /* line 231, ../sass/screen.scss */
+      footer .sitemap .cima .newsletter form {
+        width: 340px;
+        height: 30px;
+        box-shadow: inset 0 0 5px #000000;
+        background: #ffffff;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        border-radius: 5px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 0 5px; }
+        /* line 240, ../sass/screen.scss */
+        footer .sitemap .cima .newsletter form input {
+          border: 0;
+          font-family: "segoewpn", Tahoma, Helvetica, Arial, sans-serif;
+          font-size: 11px;
+          color: #999999;
+          width: 248px; }
+        /* line 248, ../sass/screen.scss */
+        footer .sitemap .cima .newsletter form button {
+          width: 75px;
+          height: 20px;
+          border: 0;
+          -webkit-border-radius: 2px;
+          -moz-border-radius: 2px;
+          -ms-border-radius: 2px;
+          -o-border-radius: 2px;
+          border-radius: 2px;
+          font-family: "segoewp-black", Tahoma, Helvetica, Arial, sans-serif;
+          font-size: 10px;
+          color: #ffffff;
+          background: #999999; }
+    /* line 260, ../sass/screen.scss */
+    footer .sitemap .cima .social_links {
+      display: inline;
+      float: left;
+      margin-left: 10px;
+      margin-right: 10px;
+      width: 220px;
+      margin-left: 0;
+      height: 70px;
+      padding-top: 15px; }
+      /* line 266, ../sass/screen.scss */
+      footer .sitemap .cima .social_links a {
+        width: 32px;
+        height: 32px;
+        display: block;
+        display: inline;
+        float: left;
+        margin-right: 10px; }
+        /* line 273, ../sass/screen.scss */
+        footer .sitemap .cima .social_links a.facebook {
+          text-indent: 110%;
+          white-space: nowrap;
+          overflow: hidden;
+          background-image: url('/kasinski/img/sitemap_social_links.png?1340073753');
+          background-repeat: no-repeat;
+          background-position: 0 0; }
+        /* line 276, ../sass/screen.scss */
+        footer .sitemap .cima .social_links a.twitter {
+          text-indent: 110%;
+          white-space: nowrap;
+          overflow: hidden;
+          background-image: url('/kasinski/img/sitemap_social_links.png?1340073753');
+          background-repeat: no-repeat;
+          background-position: -42px 0; }
+        /* line 279, ../sass/screen.scss */
+        footer .sitemap .cima .social_links a.flickr {
+          text-indent: 110%;
+          white-space: nowrap;
+          overflow: hidden;
+          background-image: url('/kasinski/img/sitemap_social_links.png?1340073753');
+          background-repeat: no-repeat;
+          background-position: -90px 0; }
+        /* line 282, ../sass/screen.scss */
+        footer .sitemap .cima .social_links a.youtube {
+          text-indent: 110%;
+          white-space: nowrap;
+          overflow: hidden;
+          background-image: url('/kasinski/img/sitemap_social_links.png?1340073753');
+          background-repeat: no-repeat;
+          background-position: -135px 0; }
+        /* line 285, ../sass/screen.scss */
+        footer .sitemap .cima .social_links a.blog {
+          text-indent: 110%;
+          white-space: nowrap;
+          overflow: hidden;
+          background-image: url('/kasinski/img/sitemap_social_links.png?1340073753');
+          background-repeat: no-repeat;
+          background-position: -180px 0;
+          margin: 0; }
+  /* line 292, ../sass/screen.scss */
+  footer .sitemap .baixo {
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 940px;
+    background: transparent url('/kasinski/img/footer_sitemap_baixo_bg.png?1340073668') no-repeat top center; }
+    /* line 296, ../sass/screen.scss */
+    footer .sitemap .baixo ul {
+      margin-left: 40px;
+      width: 920px; }
+      /* line 300, ../sass/screen.scss */
+      footer .sitemap .baixo ul li {
+        border-left: 2px solid #cbcbcb;
+        display: inline;
+        width: 20%;
+        display: inline;
+        float: left;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box; }
+        /* line 307, ../sass/screen.scss */
+        footer .sitemap .baixo ul li a {
+          display: block;
+          padding: 2px 10px;
+          color: #000000;
+          text-decoration: none;
+          font-family: "segoewp", Tahoma, Helvetica, Arial, sans-serif;
+          font-size: 14px; }
+    /* line 318, ../sass/screen.scss */
+    footer .sitemap .baixo .direitos {
+      overflow: hidden;
+      *zoom: 1;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      width: 100%;
+      padding: 20px 40px;
+      color: #666666;
+      font-family: "segoewp", Tahoma, Helvetica, Arial, sans-serif;
+      font-size: 11px; }
 
-/* line 208, ../sass/screen.scss */
+/* line 331, ../sass/screen.scss */
 .home {
   margin-left: auto;
   margin-right: auto;
-  width: 960px; }
-  /* line 211, ../sass/screen.scss */
+  width: 960px;
+  overflow: hidden;
+  *zoom: 1; }
+  /* line 335, ../sass/screen.scss */
   .home .header {
     display: inline;
     float: left;
@@ -670,7 +844,7 @@ footer {
     -webkit-box-shadow: black 0px 10px;
     -moz-box-shadow: black 0px 10px;
     box-shadow: black 0px 10px; }
-  /* line 221, ../sass/screen.scss */
+  /* line 345, ../sass/screen.scss */
   .home .slider {
     position: relative;
     display: inline;
@@ -678,7 +852,7 @@ footer {
     margin-left: 10px;
     margin-right: 10px;
     width: 940px; }
-    /* line 225, ../sass/screen.scss */
+    /* line 349, ../sass/screen.scss */
     .home .slider .dots {
       position: absolute;
       width: auto;
@@ -708,33 +882,33 @@ footer {
         /* line 50, C:/Ruby/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
         .home .slider .dots li.last {
           padding-right: 0; }
-      /* line 232, ../sass/screen.scss */
+      /* line 356, ../sass/screen.scss */
       .home .slider .dots li {
         width: 14px;
         height: 14px;
         margin: 0 3px; }
-        /* line 237, ../sass/screen.scss */
+        /* line 361, ../sass/screen.scss */
         .home .slider .dots li a {
           display: block;
           text-indent: 110%;
           white-space: nowrap;
           overflow: hidden;
-          background-image: url('/front/img/home_slider_dot.png?1339977928');
+          background-image: url('/kasinski/img/home_slider_dot.png?1339977928');
           background-repeat: no-repeat;
           background-position: 50% 50%;
           width: 14px;
           height: 14px; }
-          /* line 241, ../sass/screen.scss */
+          /* line 365, ../sass/screen.scss */
           .home .slider .dots li a:hover, .home .slider .dots li a.atual {
             text-indent: 110%;
             white-space: nowrap;
             overflow: hidden;
-            background-image: url('/front/img/home_slider_dot_atual.png?1339977907');
+            background-image: url('/kasinski/img/home_slider_dot_atual.png?1339977907');
             background-repeat: no-repeat;
             background-position: 50% 50%;
             width: 14px;
             height: 14px; }
-    /* line 248, ../sass/screen.scss */
+    /* line 372, ../sass/screen.scss */
     .home .slider .destaques {
       height: 382px;
       width: 100%;
@@ -762,14 +936,14 @@ footer {
         /* line 50, C:/Ruby/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
         .home .slider .destaques li.last {
           padding-right: 0; }
-      /* line 253, ../sass/screen.scss */
+      /* line 377, ../sass/screen.scss */
       .home .slider .destaques li {
         width: 940px;
-        background: white url('/front/img/home_destaque_bg.png?1339979829') repeat-x top right;
+        background: white url('/kasinski/img/home_destaque_bg.png?1339979829') repeat-x top right;
         margin-left: auto;
         margin-right: auto;
         width: 960px; }
-        /* line 258, ../sass/screen.scss */
+        /* line 382, ../sass/screen.scss */
         .home .slider .destaques li img {
           display: inline;
           float: left;
@@ -777,7 +951,7 @@ footer {
           margin-right: 10px;
           width: 580px;
           margin-left: 0; }
-        /* line 262, ../sass/screen.scss */
+        /* line 386, ../sass/screen.scss */
         .home .slider .destaques li div {
           display: inline;
           float: left;
@@ -788,7 +962,7 @@ footer {
           -moz-box-sizing: border-box;
           box-sizing: border-box;
           padding-right: 40px; }
-          /* line 267, ../sass/screen.scss */
+          /* line 391, ../sass/screen.scss */
           .home .slider .destaques li div h2 {
             white-space: pre;
             white-space: pre-wrap;
@@ -802,7 +976,7 @@ footer {
             font-size: 30px;
             font-style: italic;
             line-height: 25px; }
-          /* line 275, ../sass/screen.scss */
+          /* line 399, ../sass/screen.scss */
           .home .slider .destaques li div p {
             white-space: pre;
             white-space: pre-wrap;
@@ -813,18 +987,18 @@ footer {
             white-space: -hp-pre-wrap;
             word-wrap: break-word;
             font-family: "segoewpn", Tahoma, Helvetica, Arial, sans-serif; }
-            /* line 278, ../sass/screen.scss */
+            /* line 402, ../sass/screen.scss */
             .home .slider .destaques li div p font {
               size: 14px;
               weight: bold; }
-          /* line 284, ../sass/screen.scss */
+          /* line 408, ../sass/screen.scss */
           .home .slider .destaques li div a.leia-mais {
             color: #cc3333; }
-            /* line 286, ../sass/screen.scss */
+            /* line 410, ../sass/screen.scss */
             .home .slider .destaques li div a.leia-mais:hover {
               color: black; }
 
-/* line 296, ../sass/screen.scss */
+/* line 420, ../sass/screen.scss */
 .carrosel-noticias {
   display: inline;
   float: left;
@@ -836,7 +1010,7 @@ footer {
   width: 960px;
   height: 200px;
   background-color: transparent;
-  background-image: url('/front/img/carrosel_noticias_bg.png?1339979906');
+  background-image: url('/kasinski/img/carrosel_noticias_bg.png?1339979906');
   background-repeat: no-repeat;
   background-position: 10px 0px;
   -webkit-background-size: 940px 200px;
@@ -844,7 +1018,7 @@ footer {
   -o-background-size: 940px 200px;
   background-size: 940px 200px;
   position: relative; }
-  /* line 311, ../sass/screen.scss */
+  /* line 435, ../sass/screen.scss */
   .carrosel-noticias .seta {
     display: inline;
     float: left;
@@ -854,35 +1028,35 @@ footer {
     height: 200px;
     position: absolute;
     top: 0; }
-    /* line 317, ../sass/screen.scss */
+    /* line 441, ../sass/screen.scss */
     .carrosel-noticias .seta.esquerda {
       text-indent: 110%;
       white-space: nowrap;
       overflow: hidden;
-      background-image: url('/front/img/seta_esquerda.png?1339979958');
+      background-image: url('/kasinski/img/seta_esquerda.png?1339979958');
       background-repeat: no-repeat;
       background-position: 50% 50%;
       margin-left: 0;
       left: 0; }
-    /* line 322, ../sass/screen.scss */
+    /* line 446, ../sass/screen.scss */
     .carrosel-noticias .seta.direita {
       text-indent: 110%;
       white-space: nowrap;
       overflow: hidden;
-      background-image: url('/front/img/seta_direita.png?1339979980');
+      background-image: url('/kasinski/img/seta_direita.png?1339979980');
       background-repeat: no-repeat;
       background-position: 50% 50%;
       margin-right: 0;
       right: 0; }
-  /* line 329, ../sass/screen.scss */
+  /* line 453, ../sass/screen.scss */
   .carrosel-noticias .container-noticias {
     width: 850px;
     margin-left: 45px;
     overflow: hidden; }
-  /* line 335, ../sass/screen.scss */
+  /* line 459, ../sass/screen.scss */
   .carrosel-noticias .noticias {
     width: 30000px; }
-    /* line 338, ../sass/screen.scss */
+    /* line 462, ../sass/screen.scss */
     .carrosel-noticias .noticias li {
       display: inline;
       float: left;
@@ -891,12 +1065,12 @@ footer {
       box-sizing: border-box;
       width: 271px;
       height: 150px;
-      background: #222222 url('/front/img/carrosel_noticias_item_bg.png?1339980184') no-repeat left top;
+      background: #222222 url('/kasinski/img/carrosel_noticias_item_bg.png?1339980184') no-repeat left top;
       color: #ffffff;
       margin-left: 15px;
       padding: 10px;
       position: relative; }
-      /* line 349, ../sass/screen.scss */
+      /* line 473, ../sass/screen.scss */
       .carrosel-noticias .noticias li .call-to-action {
         position: absolute;
         display: block;

@@ -2,7 +2,7 @@
 require 'ninesixty'
 
 # Set this to the root of your project when deployed:
-http_path = "/front/"
+http_path = "/kasinski/"
 css_dir = "css"
 sass_dir = "sass"
 images_dir = "img"
