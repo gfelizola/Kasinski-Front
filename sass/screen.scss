@@ -264,3 +264,181 @@
 		}
 	}
 }
+
+.produtos {
+	padding-top: 100px;
+
+	.conteudo {
+		@include grid_container;
+		@include clearfix;
+		height:510px;
+		background:{
+			color: transparent;
+			image: image-url("produtos_tema_bg.jpg");
+			repeat: no-repeat;
+			position: 10px 0px;
+		} 
+		@include background-size(940px auto);
+		position: relative;
+
+		.seta {
+			@include grid(1);
+			height: 510px;
+			position: absolute;
+			top:0;
+
+			&.esquerda {
+				@include replace-text('seta_esquerda.png');
+				@include alpha;
+				left:0;
+			}
+			&.direita {
+				@include replace-text('seta_direita.png');
+				@include omega;
+				right:0;
+			}
+		}
+
+		.area {
+			@include grid(14);
+			@include grid-push(1);
+		}
+
+		.inicial {
+			margin-top: 20px;
+
+			.cores360 {
+				@include grid(8);
+				@include alpha;
+				height: 450px;
+				position: relative;
+
+				.bt_video {
+					position: absolute;
+					@include replace-text-with-dimensions('bt_assista_video.png');
+				}
+
+				.controles {
+					@include grid(6);
+					@include grid-push(1);
+					bottom: 0;
+
+					.seta360 {
+						@include grid(2);
+
+						&.esquerda {
+							@include replace-text('produtos_360_esquerda.png');
+							@include alpha;
+						}
+
+						&.direita {
+							@include replace-text('produtos_360_direita.png');
+							@include omega;
+						}
+					}
+
+					.lista-cores {
+						@include grid(2);
+						height: 50px;
+						text-align: center;
+
+						p { 
+							width: 100%; 
+							@include fontfamily('segoewp');
+							font-size: 10px;
+							margin:0;
+						}
+
+						.cor {
+							width: 17px;
+							height: 15px;
+							text-align: center;
+						}
+					}
+				}
+			}
+
+			.descricao {
+				@include grid(6);
+				@include omega;
+
+				h2 {
+					@include fontfamily('segoewpn-light');
+					font-size: 60px;
+					line-height: 60px;
+					margin:5px 0;
+				}
+
+				.slogan {
+					@include fontfamily('segoewpn-bold');
+					font-style: italic;
+					font-size: 18px;
+					color: $red;
+				}
+
+				.icones {
+					@include horizontal-list;
+				}
+
+				p {
+					font-size: 12px;
+				}
+
+				.comprar-teste {
+					width: 100%;
+					position: relative;
+
+					p {
+						font-size: 16px;
+						font-style: italic;
+					}
+
+					.comprar {
+						position: absolute;
+						right:0;
+						top:0;
+						@include replace-text-with-dimensions('bt_comprar.png');
+					}
+				}
+			}
+		}
+	}
+
+	.menu-produtos {
+		@include grid_container;
+		@include clearfix;
+		position: relative;
+		margin-top: -18px;
+		background: {
+			image: image-url('produtos_menu_bg.jpg');
+			position: center bottom;
+			repeat: no-repeat;
+			color: transparent;
+		}
+
+		a {
+			@include grid(4);
+			@include box-sizing(border-box);
+			height: 68px;
+			padding-top: 30px;
+			text-align: center;
+			text-decoration: none;
+			color: white;
+			background: {
+				image: image-url('produtos_menu_item_bg.png');
+				position: center 8px;
+				repeat: no-repeat;
+				color: transparent;
+			}
+
+			&:hover, &.atual {
+				background: {
+					image: image-url('produtos_menu_item_bg_sel.png');
+					position: center 8px;
+					repeat: no-repeat;
+					color: transparent;
+				}
+			}
+		}
+	}
+}

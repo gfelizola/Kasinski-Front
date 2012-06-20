@@ -49,7 +49,7 @@ header {
 			@include omega;
 			width:110px;
 
-			&:hover ul.submenu { display:block; };
+			&:hover ul.submenu, &.aberto ul.submenu { display:block; };
 		}
 		li a { 
 			display:block; width:100%; height:100%; line-height:38px; 

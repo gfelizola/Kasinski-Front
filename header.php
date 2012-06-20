@@ -18,7 +18,12 @@
 </head>
 <body>
 	<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
-
+	<?
+	$aberto = '';
+	if( pathinfo($_SERVER['SCRIPT_FILENAME'], PATHINFO_FILENAME) == 'produtos' ){
+		$aberto = 'aberto' ;
+	}
+	?>
 	<header>
 		<nav>
 			<a href="index.html" class="logo">HOME</a>
@@ -26,8 +31,8 @@
 				<li>
 					<a href="index.php" class="item">Home</a>
 				</li>
-				<li>
-					<a href="#" class="item">Produtos</a>
+				<li class="<?=$aberto;?>">
+					<a href="produtos.php" class="item">Produtos</a>
 					<ul class="submenu produtos">
 						<li><a href="#"><img src="img/moto_menu_fake.png" alt=""><br />Comet GTR 250</a></li>
 						<li><a href="#"><img src="img/moto_menu_fake.png" alt=""><br />Comet GTR 250</a></li>
