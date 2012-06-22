@@ -1235,10 +1235,10 @@ footer {
     width: 960px;
     overflow: hidden;
     *zoom: 1;
-    height: 510px;
+    min-height: 510px;
     background-color: transparent;
     background-image: url('/kasinski/img/produtos_tema_bg.jpg?1340158554');
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-position: 10px 0px;
     -webkit-background-size: 940px auto;
     -moz-background-size: 940px auto;
@@ -1437,9 +1437,138 @@ footer {
             width: 112px;
             height: 52px; }
     /* line 406, ../sass/screen.scss */
+    .produtos .conteudo .especificacoes {
+      padding-top: 40px; }
+      /* line 409, ../sass/screen.scss */
+      .produtos .conteudo .especificacoes .moto {
+        display: inline;
+        float: left;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 520px;
+        margin-left: 0;
+        height: 400px;
+        background-image: url('/kasinski/img/comet_caracs.png?1340328076');
+        background-repeat: no-repeat;
+        background-position: center center; }
+        /* line 419, ../sass/screen.scss */
+        .produtos .conteudo .especificacoes .moto ul {
+          display: block;
+          width: 100%;
+          height: 100%;
+          position: relative; }
+          /* line 425, ../sass/screen.scss */
+          .produtos .conteudo .especificacoes .moto ul li {
+            position: absolute;
+            width: 44px;
+            height: 44px; }
+            /* line 430, ../sass/screen.scss */
+            .produtos .conteudo .especificacoes .moto ul li a {
+              text-indent: 110%;
+              white-space: nowrap;
+              overflow: hidden;
+              background-image: url('/kasinski/img/produto_lupa.png?1340327978');
+              background-repeat: no-repeat;
+              background-position: 50% 50%;
+              width: 44px;
+              height: 44px;
+              display: block; }
+            /* line 434, ../sass/screen.scss */
+            .produtos .conteudo .especificacoes .moto ul li.motor {
+              top: 200px;
+              left: 270px; }
+            /* line 435, ../sass/screen.scss */
+            .produtos .conteudo .especificacoes .moto ul li.rodas {
+              top: 270px;
+              left: 380px; }
+            /* line 436, ../sass/screen.scss */
+            .produtos .conteudo .especificacoes .moto ul li.painel {
+              top: 100px;
+              left: 300px; }
+      /* line 441, ../sass/screen.scss */
+      .produtos .conteudo .especificacoes .descricao {
+        display: inline;
+        float: left;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 280px;
+        margin-right: 0;
+        position: relative;
+        top: 0;
+        bottom: 0; }
+        /* line 448, ../sass/screen.scss */
+        .produtos .conteudo .especificacoes .descricao .setinha {
+          width: 15px;
+          height: 30px;
+          position: absolute;
+          top: 50%;
+          left: 0;
+          margin-top: -8px; }
+        /* line 457, ../sass/screen.scss */
+        .produtos .conteudo .especificacoes .descricao .box {
+          width: 280px;
+          height: auto;
+          padding: 20px;
+          margin-left: 15px;
+          background-color: #f4f4f4;
+          background-image: url('/kasinski/img/produtos_especs_icone.png?1340335100');
+          background-position: 230px 20px;
+          background-repeat: no-repeat;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          -webkit-border-radius: 5px;
+          -moz-border-radius: 5px;
+          -ms-border-radius: 5px;
+          -o-border-radius: 5px;
+          border-radius: 5px; }
+          /* line 471, ../sass/screen.scss */
+          .produtos .conteudo .especificacoes .descricao .box h3 {
+            width: 220px;
+            margin: 0; }
+          /* line 476, ../sass/screen.scss */
+          .produtos .conteudo .especificacoes .descricao .box ul {
+            width: 100%;
+            list-style: none; }
+            /* line 11, C:/Ruby/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
+            .produtos .conteudo .especificacoes .descricao .box ul li {
+              list-style-image: none;
+              list-style-type: none;
+              margin-left: 0; }
+            /* line 480, ../sass/screen.scss */
+            .produtos .conteudo .especificacoes .descricao .box ul li {
+              overflow: hidden;
+              *zoom: 1;
+              width: 100%;
+              margin-bottom: 5px;
+              display: block;
+              background-image: url('/kasinski/img/produtos_especs_linha.jpg?1340334972');
+              background-repeat: repeat-x;
+              background-position: center 60%; }
+              /* line 491, ../sass/screen.scss */
+              .produtos .conteudo .especificacoes .descricao .box ul li p {
+                width: 100%;
+                margin: 0;
+                font-size: 12px; }
+                /* line 496, ../sass/screen.scss */
+                .produtos .conteudo .especificacoes .descricao .box ul li p span {
+                  padding: 0 4px 0 0;
+                  background-color: #f4f4f4;
+                  -webkit-box-sizing: border-box;
+                  -moz-box-sizing: border-box;
+                  box-sizing: border-box;
+                  display: inline;
+                  float: left; }
+                  /* line 501, ../sass/screen.scss */
+                  .produtos .conteudo .especificacoes .descricao .box ul li p span.valor {
+                    display: inline;
+                    float: right;
+                    text-align: right;
+                    padding: 0 0 0 4px; }
+    /* line 515, ../sass/screen.scss */
     .produtos .conteudo .caracteristicas {
       padding-top: 40px; }
-      /* line 410, ../sass/screen.scss */
+      /* line 518, ../sass/screen.scss */
       .produtos .conteudo .caracteristicas .moto {
         display: inline;
         float: left;
@@ -1451,18 +1580,18 @@ footer {
         background-image: url('/kasinski/img/comet_caracs.png?1340328076');
         background-repeat: no-repeat;
         background-position: center center; }
-        /* line 421, ../sass/screen.scss */
+        /* line 528, ../sass/screen.scss */
         .produtos .conteudo .caracteristicas .moto ul {
           display: block;
           width: 100%;
           height: 100%;
           position: relative; }
-          /* line 427, ../sass/screen.scss */
+          /* line 534, ../sass/screen.scss */
           .produtos .conteudo .caracteristicas .moto ul li {
             position: absolute;
             width: 44px;
             height: 44px; }
-            /* line 432, ../sass/screen.scss */
+            /* line 539, ../sass/screen.scss */
             .produtos .conteudo .caracteristicas .moto ul li a {
               text-indent: 110%;
               white-space: nowrap;
@@ -1473,19 +1602,19 @@ footer {
               width: 44px;
               height: 44px;
               display: block; }
-            /* line 436, ../sass/screen.scss */
+            /* line 543, ../sass/screen.scss */
             .produtos .conteudo .caracteristicas .moto ul li.motor {
               top: 200px;
               left: 270px; }
-            /* line 437, ../sass/screen.scss */
+            /* line 544, ../sass/screen.scss */
             .produtos .conteudo .caracteristicas .moto ul li.rodas {
               top: 270px;
               left: 380px; }
-            /* line 438, ../sass/screen.scss */
+            /* line 545, ../sass/screen.scss */
             .produtos .conteudo .caracteristicas .moto ul li.painel {
               top: 100px;
               left: 300px; }
-      /* line 443, ../sass/screen.scss */
+      /* line 550, ../sass/screen.scss */
       .produtos .conteudo .caracteristicas .descricao {
         display: inline;
         float: left;
@@ -1496,7 +1625,7 @@ footer {
         position: relative;
         top: 0;
         bottom: 0; }
-        /* line 450, ../sass/screen.scss */
+        /* line 557, ../sass/screen.scss */
         .produtos .conteudo .caracteristicas .descricao .setinha {
           width: 15px;
           height: 30px;
@@ -1504,7 +1633,7 @@ footer {
           top: 50%;
           left: 0;
           margin-top: -8px; }
-        /* line 459, ../sass/screen.scss */
+        /* line 566, ../sass/screen.scss */
         .produtos .conteudo .caracteristicas .descricao .box {
           width: 280px;
           height: auto;
@@ -1519,13 +1648,114 @@ footer {
           -ms-border-radius: 5px;
           -o-border-radius: 5px;
           border-radius: 5px; }
-          /* line 468, ../sass/screen.scss */
+          /* line 575, ../sass/screen.scss */
           .produtos .conteudo .caracteristicas .descricao .box h3 {
             margin: 0 0 10px 0; }
-          /* line 469, ../sass/screen.scss */
+          /* line 576, ../sass/screen.scss */
           .produtos .conteudo .caracteristicas .descricao .box p {
             font-size: 12px; }
-  /* line 476, ../sass/screen.scss */
+    /* line 582, ../sass/screen.scss */
+    .produtos .conteudo .downloads {
+      padding-top: 10px; }
+      /* line 585, ../sass/screen.scss */
+      .produtos .conteudo .downloads .wallpapers {
+        display: inline;
+        float: left;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 460px;
+        margin-left: 0; }
+        /* line 589, ../sass/screen.scss */
+        .produtos .conteudo .downloads .wallpapers ul {
+          width: 100%;
+          margin: 0;
+          padding: 0;
+          border: 0;
+          overflow: hidden;
+          *zoom: 1; }
+          /* line 60, C:/Ruby/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+          .produtos .conteudo .downloads .wallpapers ul li {
+            list-style-image: none;
+            list-style-type: none;
+            margin-left: 0;
+            white-space: nowrap;
+            display: inline;
+            float: left;
+            padding-left: 4px;
+            padding-right: 4px; }
+            /* line 48, C:/Ruby/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+            .produtos .conteudo .downloads .wallpapers ul li:first-child, .produtos .conteudo .downloads .wallpapers ul li.first {
+              padding-left: 0; }
+            /* line 49, C:/Ruby/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+            .produtos .conteudo .downloads .wallpapers ul li:last-child {
+              padding-right: 0; }
+            /* line 50, C:/Ruby/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+            .produtos .conteudo .downloads .wallpapers ul li.last {
+              padding-right: 0; }
+          /* line 593, ../sass/screen.scss */
+          .produtos .conteudo .downloads .wallpapers ul li {
+            width: 220px;
+            margin-bottom: 20px; }
+            /* line 597, ../sass/screen.scss */
+            .produtos .conteudo .downloads .wallpapers ul li a {
+              display: block;
+              width: 100%;
+              height: 100%;
+              padding-bottom: 30px;
+              background-image: url('/kasinski/img/bt_downloads.png?1340332832');
+              background-repeat: no-repeat;
+              background-position: center bottom; }
+              /* line 608, ../sass/screen.scss */
+              .produtos .conteudo .downloads .wallpapers ul li a img {
+                border: 1px solid #cccccc;
+                padding: 5px; }
+      /* line 617, ../sass/screen.scss */
+      .produtos .conteudo .downloads .screensavar {
+        display: inline;
+        float: left;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 280px;
+        position: relative;
+        left: 60px;
+        margin-right: 0;
+        background-image: url('/kasinski/img/produtos_downloads_monitor.png?1340332893');
+        background-repeat: no-repeat;
+        background-position: center 55px; }
+        /* line 628, ../sass/screen.scss */
+        .produtos .conteudo .downloads .screensavar .imagem {
+          display: block;
+          width: 264px;
+          height: 149px;
+          margin: 20px 0 0 7px;
+          position: relative;
+          margin-bottom: 70px; }
+          /* line 636, ../sass/screen.scss */
+          .produtos .conteudo .downloads .screensavar .imagem:hover .over {
+            display: block; }
+          /* line 638, ../sass/screen.scss */
+          .produtos .conteudo .downloads .screensavar .imagem .over {
+            display: none;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin: -23px 0 0 -23px; }
+        /* line 647, ../sass/screen.scss */
+        .produtos .conteudo .downloads .screensavar p {
+          font-size: 12px; }
+        /* line 649, ../sass/screen.scss */
+        .produtos .conteudo .downloads .screensavar .bt-download {
+          width: 100%;
+          height: 22px;
+          display: block;
+          text-indent: 110%;
+          white-space: nowrap;
+          overflow: hidden;
+          background-image: url('/kasinski/img/bt_downloads.png?1340332832');
+          background-repeat: no-repeat;
+          background-position: 50% 50%;
+          background-position: center center; }
+  /* line 660, ../sass/screen.scss */
   .produtos .menu-produtos {
     margin-left: auto;
     margin-right: auto;
@@ -1538,7 +1768,7 @@ footer {
     background-position: center bottom;
     background-repeat: no-repeat;
     background-color: transparent; }
-    /* line 488, ../sass/screen.scss */
+    /* line 672, ../sass/screen.scss */
     .produtos .menu-produtos a {
       display: inline;
       float: left;
@@ -1557,7 +1787,7 @@ footer {
       background-position: center 8px;
       background-repeat: no-repeat;
       background-color: transparent; }
-      /* line 503, ../sass/screen.scss */
+      /* line 687, ../sass/screen.scss */
       .produtos .menu-produtos a:hover, .produtos .menu-produtos a.atual {
         background-image: url('/kasinski/img/produtos_menu_item_bg_sel.png?1340163587');
         background-position: center 8px;
