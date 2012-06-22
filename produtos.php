@@ -1,7 +1,7 @@
 	<div id="main" class="produtos">
 		<div class="conteudo">
 			<a href="#" class="seta esquerda">Anterior</a>
-			<div class="area inicial">
+			<div class="area inicial hidden">
 				<div class="cores360">
 					<a href="#" class="bt_video">Assista ao vídeo</a>
 					<img src="img/produtos_moto_fake.png" />
@@ -39,10 +39,26 @@
 					</div>
 				</div>
 			</div>
-			<div class="area especificacoes" hidden></div>
-			<div class="area caracteristicas" hidden></div>
-			<div class="area galeria" hidden></div>
-			<div class="area downloads" hidden></div>
+			<div class="area especificacoes hidden"></div>
+			<div class="area caracteristicas">
+				<div class="moto">
+					<ul class="botoes">
+						<li class="lupa motor"><a href="#">Motor</a></li>
+						<li class="lupa rodas"><a href="#">Rodas</a></li>
+						<li class="lupa painel"><a href="#">Painel</a></li>
+					</ul>
+				</div>
+				<div class="descricao">
+					<img src="img/produtos_caracs_conteudo_seta.png" alt="" class="setinha" />
+					<div class="box">
+						<h3>Lorem ipsum dolor sit amet</h3>
+						<img src="img/produtos_caracs_thumb.png" alt="" />
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at mi ac lectus vestibulum elementum. Donec blandit condimentum eros a tempor.</p>
+					</div>
+				</div>
+			</div>
+			<div class="area galeria hidden"></div>
+			<div class="area downloads hidden"></div>
 			<a href="#" class="seta direita">Próxima</a>
 		</div>
 		<div class="menu-produtos">

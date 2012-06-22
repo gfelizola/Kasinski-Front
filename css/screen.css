@@ -1436,7 +1436,96 @@ footer {
             background-position: 50% 50%;
             width: 112px;
             height: 52px; }
-  /* line 407, ../sass/screen.scss */
+    /* line 406, ../sass/screen.scss */
+    .produtos .conteudo .caracteristicas {
+      padding-top: 40px; }
+      /* line 410, ../sass/screen.scss */
+      .produtos .conteudo .caracteristicas .moto {
+        display: inline;
+        float: left;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 520px;
+        margin-left: 0;
+        height: 400px;
+        background-image: url('/kasinski/img/comet_caracs.png?1340328076');
+        background-repeat: no-repeat;
+        background-position: center center; }
+        /* line 421, ../sass/screen.scss */
+        .produtos .conteudo .caracteristicas .moto ul {
+          display: block;
+          width: 100%;
+          height: 100%;
+          position: relative; }
+          /* line 427, ../sass/screen.scss */
+          .produtos .conteudo .caracteristicas .moto ul li {
+            position: absolute;
+            width: 44px;
+            height: 44px; }
+            /* line 432, ../sass/screen.scss */
+            .produtos .conteudo .caracteristicas .moto ul li a {
+              text-indent: 110%;
+              white-space: nowrap;
+              overflow: hidden;
+              background-image: url('/kasinski/img/produto_lupa.png?1340327978');
+              background-repeat: no-repeat;
+              background-position: 50% 50%;
+              width: 44px;
+              height: 44px;
+              display: block; }
+            /* line 436, ../sass/screen.scss */
+            .produtos .conteudo .caracteristicas .moto ul li.motor {
+              top: 200px;
+              left: 270px; }
+            /* line 437, ../sass/screen.scss */
+            .produtos .conteudo .caracteristicas .moto ul li.rodas {
+              top: 270px;
+              left: 380px; }
+            /* line 438, ../sass/screen.scss */
+            .produtos .conteudo .caracteristicas .moto ul li.painel {
+              top: 100px;
+              left: 300px; }
+      /* line 443, ../sass/screen.scss */
+      .produtos .conteudo .caracteristicas .descricao {
+        display: inline;
+        float: left;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 280px;
+        margin-right: 0;
+        position: relative;
+        top: 0;
+        bottom: 0; }
+        /* line 450, ../sass/screen.scss */
+        .produtos .conteudo .caracteristicas .descricao .setinha {
+          width: 15px;
+          height: 30px;
+          position: absolute;
+          top: 50%;
+          left: 0;
+          margin-top: -8px; }
+        /* line 459, ../sass/screen.scss */
+        .produtos .conteudo .caracteristicas .descricao .box {
+          width: 280px;
+          height: auto;
+          padding: 20px;
+          margin-left: 15px;
+          background: #f4f4f4;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          -webkit-border-radius: 5px;
+          -moz-border-radius: 5px;
+          -ms-border-radius: 5px;
+          -o-border-radius: 5px;
+          border-radius: 5px; }
+          /* line 468, ../sass/screen.scss */
+          .produtos .conteudo .caracteristicas .descricao .box h3 {
+            margin: 0 0 10px 0; }
+          /* line 469, ../sass/screen.scss */
+          .produtos .conteudo .caracteristicas .descricao .box p {
+            font-size: 12px; }
+  /* line 476, ../sass/screen.scss */
   .produtos .menu-produtos {
     margin-left: auto;
     margin-right: auto;
@@ -1449,7 +1538,7 @@ footer {
     background-position: center bottom;
     background-repeat: no-repeat;
     background-color: transparent; }
-    /* line 419, ../sass/screen.scss */
+    /* line 488, ../sass/screen.scss */
     .produtos .menu-produtos a {
       display: inline;
       float: left;
@@ -1468,7 +1557,7 @@ footer {
       background-position: center 8px;
       background-repeat: no-repeat;
       background-color: transparent; }
-      /* line 434, ../sass/screen.scss */
+      /* line 503, ../sass/screen.scss */
       .produtos .menu-produtos a:hover, .produtos .menu-produtos a.atual {
         background-image: url('/kasinski/img/produtos_menu_item_bg_sel.png?1340163587');
         background-position: center 8px;
