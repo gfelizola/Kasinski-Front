@@ -39,7 +39,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="area especificacoes">
+			<div class="area especificacoes hidden">
 				<div class="moto">
 					<ul class="botoes">
 						<li class="lupa motor"><a href="#">Motor</a></li>
@@ -82,7 +82,24 @@
 					</div>
 				</div>
 			</div>
-			<div class="area galeria hidden"></div>
+			<div class="area galeria">
+				<div class="containerFoto">
+					<img src="img/comet_caracs.png" />
+				</div>
+				<div class="thumbs">
+					<ul>
+						<li><a href="#"><img src="img/produtos_galeria_thumb_fake.jpg" /></a></li>
+						<li><a href="#"><img src="img/produtos_galeria_thumb_fake.jpg" /></a></li>
+						<li><a href="#"><img src="img/produtos_galeria_thumb_fake.jpg" /></a></li>
+						<li><a href="#"><img src="img/produtos_galeria_thumb_fake.jpg" /></a></li>
+						<li><a href="#"><img src="img/produtos_galeria_thumb_fake.jpg" /></a></li>
+						<li><a href="#"><img src="img/produtos_galeria_thumb_fake.jpg" /></a></li>
+						<li><a href="#"><img src="img/produtos_galeria_thumb_fake.jpg" /></a></li>
+						<li><a href="#"><img src="img/produtos_galeria_thumb_fake.jpg" /></a></li>
+						<li><a href="#"><img src="img/produtos_galeria_thumb_fake.jpg" /></a></li>
+					</ul>
+				</div>
+			</div>
 			<div class="area downloads hidden">
 				<div class="wallpapers">
 					<h2>Papéis de parede</h2>
